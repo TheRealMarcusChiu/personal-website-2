@@ -1,0 +1,40 @@
+.badge {
+    font-family: red hat mono,serif!important;
+    font-weight: 600!important
+}
+
+.twitter-tweet,.instagram-media {
+    margin-right: auto!important;
+    margin-left: auto!important
+}
+
+
+/* TABLE OF CONTENTS */
+.toc-title {
+    font-size: smaller
+}
+
+.toc {
+    position: fixed;
+    font-family: red hat mono,serif!important;
+    margin-right: 1.5rem;
+    opacity: .2;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    -webkit-transition: margin 1s ease-in-out;
+    -moz-transition: margin 1s ease-in-out;
+    -ms-transition: margin 1s ease-in-out;
+    -o-transition: margin 1s ease-in-out;
+    transition: margin 1s ease-in-out;
+    &:hover {
+        margin-right: 2.3rem;
+        opacity: 1;
+    }
+}
+
+#TableOfContents>ul {
+    list-style-type: '//  '
+}

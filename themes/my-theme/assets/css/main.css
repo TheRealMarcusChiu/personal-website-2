@@ -1,5 +1,27 @@
-@import 'https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap';@import 'https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap';body {
-    background-color: var(--bg-color)!important
+@import 'https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap';
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body,main {
+    height: 100%;
+    /* font-family: literata,serif!important; */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.1em;
+    font-weight: 400;
+    color: var(--font-color)!important;
+    background-color: var(--bg-color)!important;
+}
+
+code {
+  font-family: red hat mono,serif!important
+}
+
+code:not(.highlight *) {
+    color: var(--secondary);
+    font-weight: 600;
+    user-select: all
 }
 
 .breadcrumb {
@@ -23,23 +45,6 @@
     --primary-variant: #A5D7E8;
     --secondary: #2F58CD;
     --font-color: #f1f1f1
-}
-
-body {
-    background-image: url(../../../images/topo.svg)!important
-}
-
-
-
-
-body,main {
-    height: 100%;
-    font-family: literata,serif!important;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size: .95em;
-    font-weight: 400;
-    color: var(--font-color)!important
 }
 
 ::selection {
@@ -102,16 +107,6 @@ td:not(.gist-data *) {
 
 ul>li:has(input[type=checkbox]) {
     list-style-type: none
-}
-
-code {
-    font-family: red hat mono,serif!important
-}
-
-code:not(.highlight *) {
-    color: var(--secondary);
-    font-weight: 600;
-    user-select: all
 }
 
 .highlight>div {
@@ -254,11 +249,6 @@ blockquote {
     }
 }
 
-.twitter-tweet,.instagram-media {
-    margin-right: auto!important;
-    margin-left: auto!important
-}
-
 .post-summary {
     margin: 0
 }
@@ -270,40 +260,6 @@ ul:has(input[type=checkbox]) {
 
 li>input[type=checkbox] {
     margin-right: .2rem
-}
-
-.toc-title {
-    font-size: smaller
-}
-
-.toc {
-    position: fixed;
-    font-family: red hat mono,serif!important;
-    margin-right: 1.5rem;
-    opacity: .2;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -ms-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
-    -webkit-transition: margin 1s ease-in-out;
-    -moz-transition: margin 1s ease-in-out;
-    -ms-transition: margin 1s ease-in-out;
-    -o-transition: margin 1s ease-in-out;
-    transition: margin 1s ease-in-out;
-    &:hover {
-        margin-right: 2.3rem;
-        opacity: 1;
-    }
-}
-
-#TableOfContents>ul {
-    list-style-type: '//  '
-}
-
-.badge {
-    font-family: red hat mono,serif!important;
-    font-weight: 600!important
 }
 
 hr {
