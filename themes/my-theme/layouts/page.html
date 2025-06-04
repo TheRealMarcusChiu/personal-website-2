@@ -1,0 +1,38 @@
+{{ define "main" }}
+      <div class="post">
+        <header class="mb-4">
+          <h1 class="text-uppercase">{{ .Title }}</h1>
+          <div aria-label="breadcrumb">
+            <ol class="row breadcrumb bg-transparent">
+
+              {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+              {{ $dateHuman := .Date | time.Format ":date_long" }}
+              <li class="breadcrumb-item small">
+                <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+              </li>
+
+              {{ $lastModMachine := .Lastmod | time.Format "2006-01-02T15:04:05-07:00" }}
+              {{ $lastModHuman := .Lastmod | time.Format ":date_long" }}
+              {{ if and (isset .Params "lastmod") (ne $lastModMachine $dateMachine) }}
+              <li class="breadcrumb-item small">
+                Updated: <time datetime="{{ $lastModMachine }}">{{ $lastModHuman }}</time>
+              </li>
+              {{ end }}
+
+              <li class="breadcrumb-item small">
+                {{ printf "%d minutes" .ReadingTime }}
+              </li>
+            </ol>
+          </div>
+        </header>
+<!--        <div class="small toc">-->
+<!--          <p class="toc-title">-->
+<!--            Table of Contents:-->
+<!--          </p>-->
+<!--          {{ .TableOfContents }}-->
+<!--        </div>-->
+        <article>
+          {{ .Content }}
+        </article>
+      </div>
+{{ end }}
