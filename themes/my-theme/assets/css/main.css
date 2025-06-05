@@ -2,6 +2,10 @@
 @import 'https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap';
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
+.tiny {
+    font-size: 0.7em;
+}
+
 body,main {
     height: 100%;
     /* font-family: literata,serif!important; */
@@ -129,6 +133,10 @@ kbd {
 
 .post {
     padding-bottom: 200px;
+}
+
+.post header {
+    padding-bottom: 30px;
 }
 
 .post article h1,.post article h2,.post article h3,.post article h4,.post article h5,.post article h6 {
