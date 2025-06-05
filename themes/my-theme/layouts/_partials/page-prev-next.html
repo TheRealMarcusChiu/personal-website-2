@@ -2,7 +2,7 @@
 <div class="row page-prev-next">
     <div class="col-md">
         {{ if .PrevInSection }}
-            <a href="{{.PrevInSection.Permalink}}">
+            <a href="{{.PrevInSection.RelPermalink}}">
                 <span>← </span>
                 <span class="title">{{.PrevInSection.Title}}</span>
             </a>
@@ -10,7 +10,7 @@
     </div>
     <div class="col-md text-md-end">
         {{ if .NextInSection }}
-            <a href="{{.NextInSection.Permalink}}">
+            <a href="{{.NextInSection.RelPermalink}}">
                 <span class="title">{{.NextInSection.Title}}</span>
                 <span> →</span>
             </a>
