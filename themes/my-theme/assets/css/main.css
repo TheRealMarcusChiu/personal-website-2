@@ -131,6 +131,10 @@ kbd {
     font-weight: 700
 }
 
+.section {
+    padding-bottom: 200px;
+}
+
 .post {
     padding-bottom: 200px;
 }
