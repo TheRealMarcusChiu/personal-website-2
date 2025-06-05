@@ -18,11 +18,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5G85VDQT');</script>
   <!-- End Google Tag Manager -->
 
+  <link href='/favicon.ico' rel='shortcut icon'>
+  <link href='/favicon.ico' rel='apple-touch-icon'>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 
+  <!-- Open Graph Protocol - https://ogp.me/ -->
   {{ template "_internal/opengraph.html" . }}
+<!--  <meta property='og:title' content='Marcus Chiu - FullStack Developer'>-->
+<!--  <meta property='og:type' content='website'>-->
+<!--  <meta property='og:image' content='http://doc.marcuschiu.com/assets/images/me.png'>-->
+<!--  <meta property='og:url' content='http://www.marcuschiu.com'>-->
+<!--  <meta property='og:site_name' content='Marcus Chiu'>-->
+<!--  <meta property='og:description' content="Marcus Chiu's Website" >-->
+
+  <!-- Twitter Meta - https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary -->
+  <meta name='twitter:card' content='summary'>
+  <meta name='twitter:url' content='http://www.marcuschiu.com'>
+  <meta name='twitter:title' content='Marcus Chiu - FullStack Developer'>
+  <meta name='twitter:description' content="Marcus Chiu's Website">
+  <meta name='twitter:image' content='http://doc.marcuschiu.com/assets/images/me.png'>
+  <meta name='twitter:site' content='@TheMarcusChiu'>
 
   <!-- Bootstrap JS scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -34,7 +52,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   {{ partial "head/css.html" . }}
   {{ partial "head/js.html" . }}
 </head>
-<body>
+<body class="text-light dark">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5G85VDQT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->

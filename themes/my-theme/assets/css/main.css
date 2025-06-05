@@ -30,21 +30,21 @@ code:not(.highlight *) {
  }
 
 :root {
-    --bg-color: #ffffff;
-    --bg-variant: #b6b6b6;
-    --primary: #FF5D73;
-    --primary-variant: #FF1A39;
-    --secondary: #FF1A39;
-    --font-color: #1a1a1a
+    --bg-color: #eeeeee;
+    --bg-variant: #dbdcdf;
+    --primary: #141414;
+    --primary-variant: #141414;
+    --secondary: #141414;
+    --font-color: #303030
 }
 
 .dark {
-    --bg-color: #212121;
-    --bg-variant: #212121;
-    --primary: #67aec5;
-    --primary-variant: #A5D7E8;
-    --secondary: #2F58CD;
-    --font-color: #f1f1f1
+    --bg-color: #141414;
+    --bg-variant: #141414;
+    --primary: #eeeeee;
+    --primary-variant: #dbdcdf;
+    --secondary: #eeeeee;
+    --font-color: #b6b6b6
 }
 
 ::selection {
@@ -127,6 +127,10 @@ kbd {
     font-weight: 700
 }
 
+.post {
+    padding-bottom: 200px;
+}
+
 .post article h1,.post article h2,.post article h3,.post article h4,.post article h5,.post article h6 {
     font-size: 1.2rem;
     margin: 24px 0 10px;
@@ -166,6 +170,14 @@ kbd {
 .post .draft-label {
     font-weight: 700;
     color: var(--primary)
+}
+
+.page-prev-next {
+    padding-bottom: 50px;
+}
+
+.page-prev-next .title {
+   text-decoration: underline!important
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
