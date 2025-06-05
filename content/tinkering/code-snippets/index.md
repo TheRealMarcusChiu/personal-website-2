@@ -1,5 +1,5 @@
 +++
-date = '2025-06-04T17:36:22-05:00'
+date = '2125-06-04T17:36:22-05:00'
 draft = true
 title = 'Code Snippets'
 +++
