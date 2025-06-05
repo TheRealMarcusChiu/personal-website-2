@@ -143,15 +143,21 @@ kbd {
     padding-bottom: 30px;
 }
 
+/*
 .post article h1,.post article h2,.post article h3,.post article h4,.post article h5,.post article h6 {
     font-size: 1.2rem;
     margin: 24px 0 10px;
     font-weight: 700
 }
+*/
+
+.post article h1 {
+    margin-top: 75px;
+}
 
 .post article h1::before {
     content: "# ";
-    color: var(--secondary)
+    color: var(--secondary);
 }
 
 .post article h2::before {
@@ -178,6 +184,7 @@ kbd {
     content: "###### ";
     color: var(--secondary)
 }
+
 
 .post .draft-label {
     font-weight: 700;
