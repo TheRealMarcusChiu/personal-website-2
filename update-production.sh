@@ -1,5 +1,7 @@
 #! /bin/bash
 
+hugo
+
 ssh -i ~/.ssh/keys/aws-marcuschiu.pem ec2-user@www.marcuschiu.com << EOF
   rm -rf personal-website-two/
   mkdir personal-website-two
