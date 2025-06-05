@@ -1,9 +1,9 @@
 +++
 date = '2025-04-23T17:36:22-05:00'
 draft = false
-title = '💭Ramblings'
+title = '💭Rambling'
 +++
 
-# 💭 Ramblings
+# 💭 Rambling
 
 Not everything I do fits neatly into code or canvas — sometimes I just need to write. Here you’ll find thoughts, reflections, tech musings, learning journeys, and the occasional rant.

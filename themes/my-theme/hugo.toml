@@ -8,23 +8,23 @@ languageCode = 'en-US'
     weight = 10
 
   [[menus.main]]
-    name = '🛠 Tinkerings'
-    pageRef = '/tinkerings'
+    name = '🛠 Tinkering'
+    pageRef = '/tinkering'
     weight = 20
 
   [[menus.main]]
-    name = '🎨 Artings'
-    pageRef = '/artings'
+    name = '🎨 Arting'
+    pageRef = '/arting'
     weight = 30
 
   [[menus.main]]
-    name = '💭 Ramblings'
-    pageRef = '/ramblings'
+    name = '💭 Rambling'
+    pageRef = '/rambling'
     weight = 40
 
   [[menus.main]]
-    name = '🌎 Travelings'
-    pageRef = '/travelings'
+    name = '🌎 Traveling'
+    pageRef = '/traveling'
     weight = 50
 
   [[menus.main]]
