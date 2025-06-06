@@ -155,6 +155,7 @@ kbd {
     margin-top: 75px;
 }
 
+/*
 .post article h1::before {
     content: "# ";
     color: var(--secondary);
@@ -184,7 +185,7 @@ kbd {
     content: "###### ";
     color: var(--secondary)
 }
-
+*/
 
 .post .draft-label {
     font-weight: 700;
