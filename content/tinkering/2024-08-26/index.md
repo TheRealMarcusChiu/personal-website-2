@@ -65,7 +65,7 @@ Skipping my decision-making process, here's what I've ended up with:
 
 Added to cart and checked out a dozen times.
 
-Now it's time to wait for all of them to be shipped and delivered :/
+Now it's time to wait for all of this to be shipped and delivered :/
 
 # Arrival Time!
 
@@ -85,7 +85,7 @@ After putting everything together - I've booted the router.
 It's not working!!!!
 
 I thought I was just being dumb and didn't know how to use the USB console connection.
-So I've continued tinkering/debugging it for a week lol just to find myself sending it back.
+So I've continued tinkering/debugging it for whole a week just to find myself sending it back.
 Sigh - this shipment was from Europe: so it's guna take a week to get there, x amount of days for them to fix it, and another week for them to send it back...
 The good thing is that they covered the cost of shipping (as they should i guess).
 
