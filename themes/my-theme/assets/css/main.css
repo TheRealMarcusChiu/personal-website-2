@@ -28,6 +28,17 @@ code:not(.highlight *) {
     user-select: all
 }
 
+.links {
+    margin-top: 40px;
+    list-style: none;
+ }
+.links img {
+    max-width: 40px;
+ }
+ .links img:hover {
+    opacity: 0.6;
+ }
+
 .breadcrumb {
     padding-top: 0px;
     padding-bottom: 0px;
