@@ -1,7 +1,7 @@
 +++
-date = '2025-06-05T17:36:22-05:00'
+date = '2025-06-06T17:36:22-05:00'
 draft = false
-title = 'Homelab #4 - Kubernetes Cluster (Infrastructure Setup)'
+title = 'Homelab #5 - Kubernetes Cluster (App Setup)'
 +++
 
 Homelab Series:
@@ -12,6 +12,6 @@ Homelab Series:
 - [Homelab #4 - Kubernetes Cluster (Infrastructure Setup)](/tinkering/2025-06-06/)
 - [Homelab #5 - Kubernetes Cluster (App Setup)](/tinkering/2025-06-08/)
 
-# Kubernetes Cluster (Infrastructure Setup)
+# Kubernetes Cluster (App Setup)
 
-
+TODO

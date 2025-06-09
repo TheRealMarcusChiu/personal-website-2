@@ -1,17 +1,18 @@
 +++
 date = '2025-06-05T17:36:22-05:00'
 draft = false
-title = 'Homelab #3 - Kubernetes Cluster'
+title = 'Homelab #3 - Kubernetes Cluster (Initial Setup)'
 +++
 
 Homelab Series:
 
 - [Homelab #1 - Humble Beginnings](/tinkering/2024-08-26/)
 - [Homelab #2 - Proxmox Cluster](/tinkering/2025-06-04/)
-- [Homelab #3 - Kubernetes Cluster](/tinkering/2025-06-05/)
-- [Homelab #4 - VM/Container Bonanza](/tinkering/2025-06-06/)
+- [Homelab #3 - Kubernetes Cluster (Initial Setup)](/tinkering/2025-06-05/)
+- [Homelab #4 - Kubernetes Cluster (Infrastructure Setup)](/tinkering/2025-06-06/)
+- [Homelab #5 - Kubernetes Cluster (App Setup)](/tinkering/2025-06-08/)
 
-# Kubernetes Cluster
+# Kubernetes Cluster (Initial Setup)
 
 Once the Proxmox Cluster has been configured,
 we will set up a Kubernetes/k8s cluster on top of it.
@@ -26,13 +27,15 @@ There can be one or more control-nodes in a cluster.
 
 There can be one or more worker-nodes in a cluster.
 
-In my case, I have one control-node and worker-node on each of my three Proxmox-servers.
+In my case, I have one control-node and one worker-node on each of my three Proxmox-servers.
 
 # Setup Ubuntu VMs in Proxmox Cluster
 
-Launch 2 [Ubuntu Server](https://ubuntu.com/download/server) VMs on each of the three Proxmox servers - for a total of 6 VMs.
+To set up a node, we need to set up a Virtual Machine (VM) in Proxmox.
 
-Since launching 1 Ubuntu Server takes a while to set up - I recommend creating a [Proxmox template](https://pve.proxmox.com/wiki/VM_Templates_and_Clones) after the first setup and then cloning it 6 times.
+I'll be launching 2 [Ubuntu Server](https://ubuntu.com/download/server) VMs on each of the three Proxmox servers - for a total of 6 VMs.
+
+Since launching one Ubuntu Server takes a while to set up - I recommend creating a [Proxmox template](https://pve.proxmox.com/wiki/VM_Templates_and_Clones) after the first setup and then cloning it 6 times.
 
 # Configuration for Both Control & Worker nodes
 
