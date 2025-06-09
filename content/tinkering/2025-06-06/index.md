@@ -1,5 +1,5 @@
 +++
-date = '2025-06-05T17:36:22-05:00'
+date = '2025-06-06T17:36:22-05:00'
 draft = false
 title = 'Homelab #4 - Kubernetes Cluster (Infrastructure Setup)'
 +++
