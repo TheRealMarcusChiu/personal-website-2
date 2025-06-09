@@ -10,7 +10,7 @@ Homelab Series:
 - [Homelab #2 - Proxmox Cluster](/tinkering/2025-06-04/)
 - [Homelab #3 - Kubernetes Cluster (Initial Setup)](/tinkering/2025-06-05/)
 - [Homelab #4 - Kubernetes Cluster (Infrastructure Setup)](/tinkering/2025-06-06/)
-- [Homelab #5 - Kubernetes Cluster (App Setup)](/tinkering/2025-06-08/)
+- [Homelab #5 - Kubernetes Cluster (App Bonanza!!!!!!)](/tinkering/2025-06-08/)
 
 # Proxmox Cluster
 
