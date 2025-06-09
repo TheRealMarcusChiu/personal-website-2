@@ -33,6 +33,7 @@ code:not(.highlight *) {
     list-style: none;
  }
 .links img {
+    margin-top: 5px;
     max-width: 40px;
  }
  .links img:hover {
