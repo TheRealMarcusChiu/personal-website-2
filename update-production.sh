@@ -8,6 +8,7 @@ hugo
 ##############
 
 cd public
+git add .
 git commit -am "initial commit"
 git push
 
