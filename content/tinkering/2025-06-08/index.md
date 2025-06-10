@@ -1,7 +1,7 @@
 +++
-date = '2025-06-08T17:36:22-05:00'
+date = '2025-06-06T17:36:22-05:00'
 draft = false
-title = 'Homelab #5 - Kubernetes Cluster (App Bonanza!!!!!!)'
+title = 'Homelab #4 - Kubernetes Cluster (Infrastructure Setup)'
 +++
 
 Homelab Series:
@@ -12,192 +12,135 @@ Homelab Series:
 - [Homelab #4 - Kubernetes Cluster (Infrastructure Setup)](/tinkering/2025-06-06/)
 - [Homelab #5 - Kubernetes Cluster (App Bonanza!!!!!!)](/tinkering/2025-06-08/)
 
-# Kubernetes Cluster (App Bonanza!!!!!!)
+# Kubernetes Cluster (Infrastructure Setup)
 
-Here's a screenshot of my dashboard displaying most of my 50 plus servers :D
+Table of contents:
 
-It's still a work in progress.
+- Helm Installation - a package manager for Kubernetes cluster
+- MetalLB Installation - enables LoadBalancer Service
+- Nginx Ingress Controller Installation - enables Ingress
+- Rook Installation - enables resilient storage
+- Cert-Manager Installation - handles SSL certs with ease
 
-[![alt](assets/1.jpeg)](assets/1.jpeg)
+# Helm Installation
 
-# What Apps am I Running?
+Helm is like a package manager for Kubernetes. This will help make installation of k8s containers easier.
 
-Here are some of the apps I'm running on Kubernetes:
-- 13ft - bypass website paywalls
-- code-server - VC Code inside web browser
-- dashy - a dashboard for homelabs
-- k8s-dashboard - a dashboard for the Kubernetes cluster
-- librespeed - an internet speeed test
-- open-webui - an opensource "ChatGPT" web interface
-- stirling-pdf - a PDF manipulator within browser
-- changedetection - monitors website changes
-- cyberchef - a SWE toolbox for data manipulation
-- homepage - a dashboard for homelabs
-- k8s-metrics-service - i forgot
-- mealie - a recipe manager
-- sockpuppetbrowser - an internal tool for changedetection
-- whoogle - a privacy-respecting Google
+```shell
+curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+chmod 700 get_helm.sh
+./get_helm.sh
+```
 
-# Example App Installation
+Based on: https://helm.sh/docs/intro/install/
 
-Here we will install the homepage app as an example for most of the applications I'm running.
+# MetalLB Installation
 
-In this case, we will be creating 4 Kubernetes workloads:
-1. **homepage-pvc.yml** - this allocates PersistentVolumeClaims for persistent storage the homepage will be using
-2. **homepage-deployment.yml** - this defines the Deployment details needed to download and run the homepage container
-3. **homepage-svc.yml** - this defines the Service that will act as the gateway to the running homepage container
-4. **homepage-ingress.yml** - this will auto issue an SSL certificate
+We will install MetalLB to handle [LoadBalancer Service](https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer).
 
-### 1. PersistentVolumeClaim
+Based on: https://metallb.universe.tf/installation/
 
-Create a file with the following contents
+I've opted for the `Installation by Manifest` method via this command:
 
-```yaml # homepage-pvc.yml
-kind: PersistentVolumeClaim
+```shell
+kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.15.2/config/manifests/metallb-native.yaml
+```
+
+Next I've created the YAML file with the following contents
+
+```yaml # my-ip-address-pool-1.yaml
+apiVersion: metallb.io/v1beta1
+kind: IPAddressPool
 metadata:
-  name: cephfs-homepage
+  name: my-ip-address-pool-1
+  namespace: metallb-system
 spec:
-  accessModes:
-  - ReadWriteMany
-  resources:
-    requests:
-      storage: 1Gi
-  storageClassName: rook-ceph-fs
----
-apiVersion: v1
-kind: PersistentVolumeClaim
-metadata:
-  name: cephfs-homepage-public
-spec:
-  accessModes:
-  - ReadWriteMany
-  resources:
-    requests:
-      storage: 1Gi
-  storageClassName: rook-ceph-fs
+  addresses:
+  - 192.168.111.100-192.168.111.199 # CHANGE THIS ACCORDING TO YOUR NETWORK
  ```
 
-Then apply it
+Next apply this to your k8s cluster
 
 ```shell
-kubectl apply -f homepage-pvc.yml
+kubectl apply -f my-ip-address-pool-1.yaml
 ```
 
-### 2. Deployment
+Create another YAML file with the following contents
 
-Create a file with the following contents
-
-```yaml # homepage-deployment.yml
-apiVersion: apps/v1
-kind: Deployment
+```yaml # my-l2-advertisement-1.yaml
+apiVersion: metallb.io/v1beta1
+kind: L2Advertisement
 metadata:
-  name: homepage
-spec:
-  replicas: 2
-  selector:
-    matchLabels:
-      app: homepage
-  template:
-    metadata:
-      labels:
-        app: homepage
-    spec:
-      automountServiceAccountToken: true
-      dnsPolicy: ClusterFirst
-      enableServiceLinks: true
-      containers:
-      - name: homepage
-        image: ghcr.io/gethomepage/homepage:latest
-        ports:
-        - containerPort: 3000
-        env:
-        - name: HOMEPAGE_ALLOWED_HOSTS
-          value: "homepage.lan"
-        volumeMounts:
-        - mountPath: /app/config
-          name: cephfs-homepage
-        - mountPath: /app/public/images
-          name: cephfs-homepage-public
-      volumes:
-      - name: cephfs-homepage
-        persistentVolumeClaim:
-          claimName: cephfs-homepage
-          readOnly: false
-      - name: cephfs-homepage-public
-        persistentVolumeClaim:
-          claimName: cephfs-homepage-public
-          readOnly: false
-```
+  name: my-l2-advertisement-1
+  namespace: metallb-system
+  ```
 
-Then apply it
+Apply this as well
 
 ```shell
-kubectl apply -f homepage-deployment.yml
+kubectl apply -f my-l2-advertisement-1.yaml
 ```
 
-### 3. Service
+You can verify LoadBalancer works by creating one accordingly.
 
-Create a file with the following contents
+# Nginx-Ingress-Controller Installation
 
-```yaml # homepage-svc.yml
-apiVersion: v1
-kind: Service
+Inginx Ingress Controller enables [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)
+
+Based on: https://kubernetes.github.io/ingress-nginx/deploy/
+
+I've once again opted for the `Installation by Manifest` method via this command:
+
+```shell
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.12.3/deploy/static/provider/cloud/deploy.yaml
+```
+
+# Rook Installation
+
+Kubernetes is great for stateless applications. However, deploying stateful applications requires some storage redundancy and Rook greatly simplifies this.
+
+Rook is essentially [Ceph](https://ceph.io/en/) underhood for Kubernetes. Ceph is a resilient storage solution.
+
+Rook installation is based on: https://rook.github.io/docs/rook/latest-release/Getting-Started/quickstart/#prerequisites
+
+I've just followed that and only configured the `Shared Filesystem` part.
+
+# Cert-Manager Installation
+
+Cert Manager helps ease our SSL management.
+
+Based on: https://cert-manager.io/docs/installation/
+
+Install Cert Manager via
+
+```shell
+kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.17.2/cert-manager.yaml
+```
+
+Next create the following file with:
+
+```yaml # cluster-issuer.yml
+kind: ClusterIssuer
 metadata:
-  name: homepage
+  name: letsencrypt-prod
 spec:
-  ports:
-  - port: 80
-    targetPort: 3000
-  selector:
-    app: homepage
-  type: LoadBalancer
+  acme:
+    server: https://acme-v02.api.letsencrypt.org/directory
+    email: marcuschiu9@gmail.com
+    privateKeySecretRef:
+      name: letsencrypt-prod
+    solvers:
+    - http01:
+        ingress:
+          class: nginx
 ```
 
-Then apply it
+Apply it
 
 ```shell
-kubectl apply -f homepage-svc.yml
+kubectl apply -f cluster-issuer.yml
 ```
 
-### 4. Ingress
+# Conclusion
 
-Create a file with the following contents
-
-```yaml # homepage-ingress.yml
-apiVersion: networking.k8s.io/v1
-kind: Ingress
-metadata:
-  name: homepage
-  annotations:
-    cert-manager.io/cluster-issuer: "letsencrypt-prod"
-    nginx.ingress.kubernetes.io/rewrite-target: /
-spec:
-  ingressClassName: nginx
-  tls:
-  - hosts:
-    - homepage.lan
-    secretName: tls-homepage
-  rules:
-  - host: homepage.lan
-    http:
-      paths:
-      - path: /
-        pathType: Prefix
-        backend:
-          service:
-            name: homepage
-            port:
-              number: 80
- ```
-
-Then apply it
-
-```shell
-kubectl apply -f homepage-ingress.yml
-```
-
-# Repeat
-
-The example above is pretty much the template I've used for deploying the rest of the applications.
-
-Of course, some may not use PersistentVolumeClaims and other may not use Ingress. So create and apply those manifest files accordingly.
+This pretty much sums up the infrastructure needed to run my future applications :)
