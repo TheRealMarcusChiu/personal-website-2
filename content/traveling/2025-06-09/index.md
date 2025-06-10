@@ -25,7 +25,7 @@ They've got some bad*ss sea bass at the banquet yo:
 
 &nbsp;
 
-Got a $9 Michelin star boba. Wasn't that great tbh.
+$9 Michelin star boba
 
 {{< carousel
         data="assets/4.jpeg|,assets/5.jpeg|"
