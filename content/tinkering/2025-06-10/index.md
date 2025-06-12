@@ -38,7 +38,7 @@ Weird... maybe it has to deal with sticky sessions since I have 2 containers run
 
 That worked.
 
-Here's how to add sticky sessions (assuming you have [Nginx Ingress Controller setup](/tinkering/2025-06-06/))
+Here's how to add sticky sessions (assuming you have [Nginx Ingress Controller setup](/tinkering/2025-06-06/#nginx-ingress-controller-installation))
 
 These are the following lines to add
 
