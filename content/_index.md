@@ -12,12 +12,19 @@ Welcome to my corner of the internet! This is where I share a mix of tinkering, 
 
 
 
-&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-</br></br></br></br></br></br>
+[//]: # (&nbsp;)
 
-### Recent Activity
+[//]: # (&nbsp;&nbsp;&nbsp;)
 
-- [Prof. Judy Fan: Cognitive Tools for Making the Invisible Visible](https://www.youtube.com/watch?v=AF3XJT9YKpM&t=11s)
-- [Launched Some Kasm Workspace Images](https://kasmweb.com/images)
+[//]: # (&nbsp;&nbsp;&nbsp;)
+
+[//]: # (</br></br></br></br></br></br>)
+
+[//]: # ()
+[//]: # (### Recent Activity)
+
+[//]: # ()
+[//]: # (- [Prof. Judy Fan: Cognitive Tools for Making the Invisible Visible]&#40;https://www.youtube.com/watch?v=AF3XJT9YKpM&t=11s&#41;)
+
+[//]: # (- [Launched Some Kasm Workspace Images]&#40;https://kasmweb.com/images&#41;)
+
