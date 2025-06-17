@@ -26,8 +26,22 @@ Download and install: https://www.proxmox.com/en/downloads/proxmox-virtual-envir
 
 I've downloaded the ISO file and used [BalenaEtcher](https://etcher.balena.io/) to create the USB boot medium.
 
+# Post Installation Script
+
+Once Proxmox was installed on each of the three machines, we will run one of the post install scripts.
+
+This script removes the subscription nag, and among other things. 
+
+Since we are configuring a cluster - we will not disable High Availability.
+
+```shell
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/post-pve-install.sh)"
+```
+
+![alt](assets/2.jpeg)
+
 # Configure Proxmox Cluster
 
-Once Proxmox was installed on each of the three machines, I've just followed this to setup the cluster:
+After post installation setup, we will follow this video in configuring a Proxmox cluster
 
 {{< youtube Mz-nXlqovLI >}}
