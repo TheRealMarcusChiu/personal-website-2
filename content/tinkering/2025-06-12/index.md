@@ -10,7 +10,7 @@ We will be using Let's Encrypt to issue a free SSL certificate for the following
 - marcuschiu.com
 - *.marcuschiu.com
 
-The latter domain is a wildcard domain and this allows any sub-domain to be encrypted with SSL all in one go (e.g. www.marcuschiu.com, thoughts.marcuschiu.com, etc).
+The latter domain is a wildcard domain and this allows any sub-domain to be encrypted with SSL all in one go (e.g. [www.marcuschiu.com](https://www.marcuschiu.com), [thoughts.marcuschiu.com](https://thoughts.marcuschiu.com), etc).
 
 # Install Dependencies
 
