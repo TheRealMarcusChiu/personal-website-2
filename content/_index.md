@@ -5,7 +5,7 @@ title = '👋Home'
 +++
 # 👋 Hi there
 
-Welcome to my corner of the internet! This is where I share a mix of tinkering, arting, rambling, and traveling.
+Welcome to my corner of the internet! This is where I share a mix of my tinkering, math, art, ramblings, and travels.
 
 — *Your Friendly Internet Neighbor*
 

@@ -3,34 +3,39 @@ languageCode = 'en-US'
 
 [menus]
   [[menus.main]]
-    name = '🏠 Home'
+    name = 'Home'
     pageRef = '/'
     weight = 10
 
   [[menus.main]]
-    name = '🛠 Tinkering'
+    name = 'Tinkering'
     pageRef = '/tinkering'
     weight = 20
 
   [[menus.main]]
-    name = '🎨 Arting'
-    pageRef = '/arting'
+    name = 'Math'
+    pageRef = '/math'
     weight = 30
 
   [[menus.main]]
-    name = '💭 Rambling'
-    pageRef = '/rambling'
+    name = 'Art'
+    pageRef = '/art'
     weight = 40
 
   [[menus.main]]
-    name = '🌎 Traveling'
-    pageRef = '/traveling'
+    name = 'Thoughts'
+    pageRef = '/thoughts'
     weight = 50
 
   [[menus.main]]
-    name = '🙋 About'
-    pageRef = '/about'
+    name = 'Travel'
+    pageRef = '/travel'
     weight = 60
+
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 70
 
 [module]
   [module.hugoVersion]
