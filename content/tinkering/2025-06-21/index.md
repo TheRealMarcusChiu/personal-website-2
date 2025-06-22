@@ -197,7 +197,7 @@ chmod +x /usr/local/bin/dosthold.sh
 
 Add the following to /etc/systemd/system/dosthol.service
 
-```toml
+```ini
 [Unit]
 Description=dosthol (Do something on LAN)
  
