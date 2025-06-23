@@ -27,8 +27,7 @@ But it also contains other tests for:
 - conflicts styles
 - coping styles
 
-I tend to NOT trust these tests because it's you taking the test about yourself
-and I don't trust myself to know everything about myself.
+I tend to NOT trust these tests because it's you taking the test about yourself.
 But it's always fun to read a makeshift description about yourself
 
 Here's my results: https://www.dimensional.me/marcuschiu
