@@ -1,5 +1,5 @@
 +++
-date = '2025-06-11T00:00:00-05:00'
+date = '2025-06-23T00:00:00-05:00'
 draft = false
 title = 'Dimensional Me'
 summary = 'summary'
