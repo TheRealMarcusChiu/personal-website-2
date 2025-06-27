@@ -195,7 +195,7 @@ Make it executable
 chmod +x /usr/local/bin/dosthold.sh
 ```
 
-Add the following to /etc/systemd/system/dosthol.service
+Create a new file `/etc/systemd/system/dosthol.service` with the following contents:
 
 ```ini
 [Unit]

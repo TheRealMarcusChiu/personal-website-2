@@ -9,9 +9,9 @@ They say - "you can't trust yourself to know everything about yourself"
 
 Which is why I was intrigued by `Dimensional Me`.
 
-It's another other personality test lol
+It's another personality test lol
 
-But it also contains other tests for:
+But it also contains tests for:
 - cognition
 - values
 - primary traits
