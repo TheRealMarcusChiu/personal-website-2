@@ -15,6 +15,8 @@ I'm currently a ~~Student studying Bachelor of Science in CS at UTD~~, ~~Compute
 
 {{< figure src="assets/me/me.png" title="me and pixel man (acrylic)" >}}
 
+&nbsp;
+
 My other sites:
 - [confluence.marcuschiu.com](https://confluence.marcuschiu.com) - where I document everything
 - [d3.marcuschiu.com](https://d3.marcuschiu.com) - data visualization
