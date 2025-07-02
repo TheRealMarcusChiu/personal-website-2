@@ -23,19 +23,24 @@ languageCode = 'en-US'
     weight = 40
 
   [[menus.main]]
+    name = 'Fitness'
+    pageRef = '/fitness'
+    weight = 50
+
+  [[menus.main]]
     name = 'Thoughts'
     pageRef = '/thoughts'
-    weight = 50
+    weight = 60
 
   [[menus.main]]
     name = 'Travel'
     pageRef = '/travel'
-    weight = 60
+    weight = 70
 
   [[menus.main]]
     name = 'About'
     pageRef = '/about'
-    weight = 70
+    weight = 80
 
 [module]
   [module.hugoVersion]
