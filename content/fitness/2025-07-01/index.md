@@ -9,6 +9,6 @@ He asked me if I could do a muscle-up. I told him I can't (it's damm hard) but I
 He said, "show me what you mean".
 
 I got up the pull-up bar and then ripped out a muscle-up... surprised the **** out of me -
-I didn't think I was able to do it. I was training months weighted pull-ups without knowing I could do one..........
+I didn't think I was able to do it. I was training months on weighted pull-ups without knowing I could do one..........
 
 I wish I had a video lol
