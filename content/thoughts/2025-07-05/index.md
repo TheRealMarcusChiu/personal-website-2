@@ -18,4 +18,4 @@ But I remembered what she said about "love bombing". So I held back. Maybe, with
 
 I didn't realize how emotions could take a reign over me. What hurt the most was seeing her beautiful eyes but this time with tears. I was numb. The next day my emotions flooded - I made up a lie and blame-shifted a fictitious person. My clouded judgement thought it would help but it turned out to be the proverbial final nail for her, perhaps the entire coffin itself.
 
-Maybe I'll come across another gift again - and this time express the un-expressed :)
+Maybe I'll come across another gift again - and this time express the un-expressed
