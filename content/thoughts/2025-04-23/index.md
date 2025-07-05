@@ -29,12 +29,12 @@ Everything started with a voice. All the things we experience (every good thing,
 
 Job chapter 37 states - that His voice THUNDERS in marvelous ways, and he does this so that we may STOP and be in awe of all His wonders.
 
-Back page 1 of the Bible, when God said, “Let there be stars”. In just 4 words:
+When God said, “Let there be stars” on page 1. He in just 4 words:
 
-- He galactified the galaxies
+- galactified the galaxies
 - constellated the constellations
 - and scattered over a hundred million stars across the night sky
-- and He knows them by name
+- and knows them by name
 
 Impossible for us. But for God it is far too easy (as easy as it is for us to say a handful of words).
 
