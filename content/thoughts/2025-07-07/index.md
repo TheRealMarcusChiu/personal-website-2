@@ -8,7 +8,7 @@ summary = 'summary'
 In christianity death is like sleep.
 
 Sometimes i believe God has given us sleep to show us what death is like.
-It is something NOT to be afraid of - but it is something to be woken up from.
+It is something NOT to be afraid of - but to be woken up from.
 
 For example, when Jesus raised the girl from the dead, He said two words, "Talitha Cumi".
 It is an Aramaic phrase meaning "Little girl, arise". This is an endearment term,
