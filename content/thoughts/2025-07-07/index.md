@@ -19,6 +19,6 @@ and the dad says, "sweety - wake up, it's time to start your day".
 That is what death is like. Every one of us will have a last moment.
 And when that time comes, your eyes will start to drift - darkness will set in - 
 in the silence you'll hear, "wake up - my child".
-A bright Light shines in through the window of your eyes.
+A bright Light shines through the window of your eyes.
 And as everything starts to slowly focus - you'll see Him face to face.
 Then you shall know fully, even as you were fully known.
