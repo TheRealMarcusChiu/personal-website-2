@@ -13,6 +13,6 @@ Overtime, I started picking out gifts she’d like - even for her birthday 6 mon
 
 But I remembered what she said about "love bombing". I didn't want to do that to her. Over a half-dozen gifts left ungiven. Held back in other ways too. Although, there were times some slipped by.
 
-I didn't realize how emotions could take reign over me. What hurt the most was seeing her beautiful eyes but this time in tears. I made up a lie and blame-shifted a fictitious person. It turned out to be the proverbial final nail for her. Perhaps the entire coffin.
+I didn't realize how emotions could take reign over me. What hurt the most was seeing her beautiful eyes but this time in tears. I made up a lie and blame-shifted a fictitious person, but it turned out to be the proverbial final nail for her. Perhaps the entire coffin.
 
 Maybe I'll come across another gift again - and express the un-expressed
