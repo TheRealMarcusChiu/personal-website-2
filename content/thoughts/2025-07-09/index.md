@@ -5,7 +5,7 @@ title = 'Thoughts on Praise'
 summary = 'summary'
 +++
 
-I find myself revisiting the Thoughts on Praise - below is a trimmed version.
+I find myself revisiting Thoughts on Praise - below is a trimmed version.
 
 The most obvious fact about praise—whether of God or anything—strangely escaped me. I thought of it in terms of compliment, approval, or the giving of honor. I had never noticed that all enjoyment spontaneously overflows into praise
 
