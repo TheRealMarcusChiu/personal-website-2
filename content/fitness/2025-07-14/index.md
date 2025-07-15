@@ -1,7 +1,7 @@
 +++
 date = '2025-07-14T00:00:00-00:00'
 draft = false
-title = 'What I Eat'
+title = 'What I Eat #1'
 +++
 
 Uh currently doing a no carb diet?
