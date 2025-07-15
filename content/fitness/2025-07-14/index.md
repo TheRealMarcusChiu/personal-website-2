@@ -19,3 +19,5 @@ Uh currently doing a no carb diet?
   - 20g of protein powder
   - 20g of collagen
   - 5g of creatine
+
+Been doing this for almost 2 weeks - with 1 cheat day per week :/
