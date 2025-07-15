@@ -77,8 +77,36 @@ If it doesn't contain `g` then check if it supports it by verifying `Supports Wa
 
 If supported then enable it:
 
+**Temporary Enable**
+
+The following command only lasts one computer restart :/
+
 ```shell
 ethtool -s enp114s0 wol g
+```
+
+**Permanent Enable**
+
+Create a service file /etc/systemd/system/wol.service with the following
+
+```ini
+[Unit]
+Description=Enable Wake On Lan
+ 
+[Service]
+Type=oneshot
+ExecStart = /usr/sbin/ethtool --change enp12s0 wol g
+ 
+[Install]
+WantedBy=basic.target
+```
+
+Execute the following
+
+```shell
+sudo systemctl daemon-reload
+sudo systemctl enable wol.service
+systemctl status wol
 ```
 
 Now WoL is configured on your Proxmox Host Machine! 
