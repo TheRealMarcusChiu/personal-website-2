@@ -11,7 +11,7 @@ I wanted to go over the entire Spring Boot material for version 3.
 I've done this before for Spring Boot version 2, but I haven't done it for version 3.
 So I've gone back to the site [www.baeldung.com](https://www.baeldung.com) but noticed some articles are out of date?
 Also, some had clear mistakes that took me a good minute to figure out...
-And their code is behind a paywall, and their site is filled with noisy ads.
+Their site is filled with noisy ads and their code is behind a paywall.
 
 # Solution
 
