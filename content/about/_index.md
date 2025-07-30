@@ -13,7 +13,7 @@ I'm currently a ~~Student studying Bachelor of Science in CS at UTD~~, ~~Compute
 
 &nbsp;
 
-{{< figure src="assets/me/me.png" title="me and pixel man (acrylic)" >}}
+{{< figure src="assets/me/me.jpeg" title="me and pixel man (acrylic)" >}}
 
 &nbsp;
 
