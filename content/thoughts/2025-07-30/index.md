@@ -23,17 +23,17 @@ I came across a podcast where the "Beast Games" winner talked about life after w
 10,000,000 dollars. He had to sign an NDA that he cannot tell anyone that he won until 
 the final episode aired, which was about 6 months.
 
-He described how ecstatic he was when he went back home. However, as days went by, the joy waned.
-And some sort of depression sets in. Even though he won 10 million dollars - it was surreal that
-he wasn't able to share that joy. If you could gain the whole world but have no one to share it 
-with what good is it. Then the episode aired. He watched it with his friends & family - joy
-could be seen on his face - as if he won 10 million dollars again.
+He described how ecstatic he was when he went back home. However, as days went by, that joy waned.
+And then some sort of depression sets in. Even though he won 10 million dollars - it was a surreal 
+moment that he wasn't able to share that joy. If you could gain the whole world but have no one to
+share it with, then what good is it. The episode aired. He watched it with his friends & family -
+joy was re-experienced - as if he won 10 million dollars again.
 
-In fact, the winner was actually forewarned about this emotional rollercoaster the day he won.
-A psychologist who specialized in contestant game-show winners knew what he went through was not
-one of a kind but a common phenomenon. The phenomenon is that when one wins a life-changing amount
-but because of a signed NDA couldn't express such joy - couldn't share such joy. And joy-suppressed
-leads to being depressed. That is until one is able to share it. 
+The winner was actually forewarned about this emotional rollercoaster on the day he won.
+He met with a psychologist who specialized in contestant game-show winners and knew that what he went 
+through was a common phenomenon. The phenomenon that when one wins a prize but because of a signed NDA 
+artificially suppresses the joy. And it often leads to being depressed.
+That is until one is able to share it. 
 
 Additional points on "Thoughts on Praise":
 * praise is the overflow of joy
@@ -122,9 +122,9 @@ NO! We know this from the sermon on the mount - Jesus said:
 "Not everyone who says Lord, Lord will enter the kingdom of heaven."
 
 You could give Him the proverbial Judas kiss on Sunday morning - 
-but for the rest of the week, betray Him with your heart. This is blasphemy - 
-to say the Lord's name in vain on Sunday mornings - but to go on worshiping 
-other Lords for the rest of the week. A dichotomy between what we say with our 
+but for the rest of the week, betray Him in your heart. This is blasphemy - 
+to say the Lord's name in vain on Sunday mornings - but then go on worshiping 
+other Lords in the rest of the week. A dichotomy between what we say with our 
 lips and what we worship with our hearts.
 
 Perhaps this is why Psalms 19 not only asks for the words of his mouth to be 
