@@ -21,7 +21,7 @@ I've created 77 proof-of-concepts of varying Spring Boot features and made them 
 I've also wrote bare-bones documentation for each feature and made them available 
 at:
 
-- [spring-guides.marcuschiu.com](https://spring-guides.marcuschiu.com).
+- [spring-guides.marcuschiu.com](https://spring-guides.marcuschiu.com)
 
 They will never be behind a paywall - nor will ads ever be shown.
 
