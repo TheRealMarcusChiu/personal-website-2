@@ -19,6 +19,7 @@ I'm currently a ~~Student studying Bachelor of Science in CS at UTD~~, ~~Compute
 
 My other sites:
 - [confluence.marcuschiu.com](https://confluence.marcuschiu.com) - where I document everything
+- [spring-guides.marcuschiu.com](https://spring-guides.marcuschiu.com) - spring guides
 - [d3.marcuschiu.com](https://d3.marcuschiu.com) - data visualization
 - [crontab.marcuschiu.com](https://crontab.marcuschiu.com) - crontab helper
 - [fisher-information.marcuschiu.com](https://fisher-information.marcuschiu.com) - visualizing fisher information
