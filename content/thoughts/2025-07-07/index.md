@@ -1,6 +1,6 @@
 +++
 date = '2025-07-07T00:00:00-00:00'
-draft = false
+draft = true
 title = 'Death is Like Sleep'
 summary = 'summary'
 +++
