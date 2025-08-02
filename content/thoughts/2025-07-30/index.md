@@ -26,7 +26,7 @@ the final episode aired, which was about 6 months.
 He described how ecstatic he was when he went back home. However, as days went by, that joy waned.
 And then some sort of depression sets in. Even though he won 10 million dollars - it was a surreal 
 moment that he wasn't able to share that joy. If you could gain the whole world but have no one to
-share it with, then what good is it. The episode aired. He watched it with his friends & family -
+share it with, what good is it. Then the episode aired. He watched it with his friends & family -
 joy was re-experienced - as if he won 10 million dollars again.
 
 The winner was actually forewarned about this emotional rollercoaster on the day he won.
