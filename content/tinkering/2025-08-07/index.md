@@ -6,16 +6,16 @@ title = 'Learning ReactJS'
 
 # Problem
 
-I wanted to learn a new UI framework. In the past, I've learned **Angular**.
-Today I wanted to learn **ReactJS**. So perhaps the next step is to learn 
+I wanted to learn a new UI framework. In the past, I've gone through **Angular**.
+Now it's time to devour **ReactJS**. Maybe the next logical step is to learn 
 **React Ionic** and/or **React Native**?
 
 # Solution
 
-So I've spent 2 working days going through the ReactJS tutorials 
+I've spent the past 2 working days going through the ReactJS tutorials 
 [here](https://react.dev/learn/your-first-component).
 
-After going through them, I've decided to build a Tetris game using ReactJS.
+Next, I've decided to build a Tetris game using ReactJS.
 Though I've ended up using a bunch more plain JavaScript lol.
 
 - [tetris.marcuschiu.com](https://tetris.marcuschiu.com)
