@@ -54,6 +54,21 @@ function gameEngineStepCounter_Stop() {
 }
 ```
 
+```js
+function keydownEC(event) {
+    if (event.key === "ArrowDown") {
+        gameEngineStepCounter_Stop();
+        // do manual down move
+    }
+}
+
+function keyupEC(event) {
+    if (event.key === "ArrowDown") {
+        gameEngineStepCounter_Start(stepCounter);
+    }
+}
+```
+
 Next, I needed to figure out how to visually display the grid. I've
 opted for canvas as it was easier to manipulate. Since each grid square
 is 40px by 40px, so the canvas size will be 400px by 800px. I've added 
