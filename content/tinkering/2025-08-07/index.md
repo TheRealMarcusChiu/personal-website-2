@@ -1,7 +1,7 @@
 +++
 date = '2025-08-07T00:00:00-05:00'
 draft = false
-title = 'Learning ReactJS'
+title = 'Learning R̶e̶a̶c̶t̶J̶S̶ JavaScript'
 +++
 
 # Problem
@@ -16,7 +16,7 @@ I've spent the past 2 working days going through the ReactJS tutorials
 [here](https://react.dev/learn/your-first-component).
 
 Next, I've decided to build a Tetris game using ReactJS.
-Though I've ended up using a bunch more plain JavaScript lol.
+However, I've ended up using a bunch more plain JavaScript lol.
 
 - [tetris.marcuschiu.com](https://tetris.marcuschiu.com)
 
