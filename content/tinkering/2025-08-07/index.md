@@ -6,9 +6,9 @@ title = 'Learning ReactJS'
 
 # Problem
 
-I wanted to learn a new UI framework. In the past, I've gone through **Angular**.
-Now it's time to devour **ReactJS**. Maybe the next logical step is to learn 
-**React Ionic** and/or **React Native**?
+I wanted to learn a new UI framework. In the past, I've gone through Angular.
+Now it's time to devour ReactJS. Maybe the next logical step is to learn 
+React Ionic and/or React Native?
 
 # Solution
 
