@@ -20,7 +20,7 @@ Though I've ended up using a bunch more plain JavaScript lol.
 
 - [tetris.marcuschiu.com](https://tetris.marcuschiu.com)
 
-[![alt](assets/tetris.jpeg)](https://spring-guides.marcuschiu.com)
+[![alt](assets/tetris.jpeg)](https://tetris.marcuschiu.com)
 
 # How I Built it
 
