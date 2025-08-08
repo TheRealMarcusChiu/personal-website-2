@@ -32,7 +32,7 @@ joy was re-experienced - as if he won 10 million dollars again.
 The winner was actually forewarned about this emotional rollercoaster on the day he won.
 He met with a psychologist who specialized in contestant game-show winners and knew that what he went 
 through was a common phenomenon. The phenomenon that when one wins a prize but because of a signed NDA 
-artificially suppresses the joy. And it often leads to being depressed.
+artificially suppressed that joy. And joy suppressed  depressed.
 That is until one is able to share it. 
 
 Additional points on "Thoughts on Praise":
@@ -71,6 +71,14 @@ activity but one done in an assembly of believers. Where we all bring our own "d
 potluck - to share our own thoughts & feelings as we break down the passage into its 
 sentences and its sentences into its Words. Just so that we could "taste and see that 
 the Lord is good and take refuge in His Word" ~ Psalms 34:8
+
+# Additional Thoughts on Food
+
+"breaking bread" with someone often signifies a state of peace and reconciliation, 
+implying forgiveness. Sharing a meal, especially when involving bread, symbolizes a 
+connection and a sense of brotherhood, indicating a willingness to move forward and 
+mend relationships, even those previously marked by conflict. It can be a powerful 
+gesture of hospitality and a way to build trust and unity.
 
 # Thoughts on Praising God
 
