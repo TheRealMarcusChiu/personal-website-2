@@ -1,7 +1,7 @@
 +++
 date = '2025-08-07T00:00:00-05:00'
 draft = false
-title = 'Learning R̶e̶a̶c̶t̶J̶S̶ JavaScript'
+title = 'Built Tetris Using ReactJS'
 +++
 
 # Problem
