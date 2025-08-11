@@ -21,7 +21,7 @@ That's exactly what I needed!
 Because I'm a genius - the original code had the game logic and render logic separate.
 Thus, all I need to do is to rewrite the render logic using ⬛🟫🟧🟪🟥🟦🟨🟩.
 
-The base board will be a <div> of <div>s like so:
+The base board will be a `<div>` of `<div>`s like so:
 
 ```xml
 <div className="text-board board">
