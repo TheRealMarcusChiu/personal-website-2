@@ -19,6 +19,12 @@ Setup a (Telegraf + InfluxDB + Grafana) stack.
 - Telegraf - is a binary running on the server/computer that will send temp data to InfluxDB
 - Grafana - will take data from InfluxDB and display it nicely (and alerts can also be setup here)
 
+# ToC
+
+- [InfluxDB Setup](#influxdb-setup)
+- [Telegraf Setup](#telegraf-setup)
+- [Grafana Setup](#grafana-setup)
+
 # InfluxDB Setup
 
 Since I have a [Proxmox Cluster](/tinkering/2025-06-04/),
@@ -154,7 +160,7 @@ Create a connection to InfluxDB
 Click save and test.
 
 
-# Grafana Setup Dashboard
+# Grafana Setup Dashboard (Optional)
 
 ![alt](assets/8.jpeg)
 
