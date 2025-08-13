@@ -1,10 +1,8 @@
 +++
 date = '2025-07-14T00:00:00-00:00'
 draft = false
-title = 'What I Eat #1'
+title = 'What I Eat #1 (NO CARBS)'
 +++
-
-Uh currently doing a no carb diet?
 
 - 5 fried eggs (no seasoning)
 - 1lb ground turkey 99% lean (no seasoning)
