@@ -17,7 +17,7 @@ Setup a (Telegraf + InfluxDB + Grafana) stack.
 
 - InfluxDB - is a time-series database
 - Telegraf - is a binary running on the server/computer that will send temp data to InfluxDB
-- Grafana - will take data from InfluxDB and display it nicely (and alerts can also be setup here)
+- Grafana - will take data from InfluxDB and display it nicely (and also alert me when temp is too high)
 
 # ToC
 
