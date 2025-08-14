@@ -1,0 +1,13 @@
++++
+date = '2025-08-14T00:00:00-05:00'
+draft = false
+title = "I've Built Tetris Using ASCII"
++++
+
+I've made tetris using <canvas> and also Unicode characters (i.e. 🟧🟪🟥🟦🟨🟩).
+
+So late at night, I've decided to make tetris using ASCII characters.
+
+[tetris-ascii.marcuschiu.com](https://tetris-ascii.marcuschiu.com)
+
+[![alt](assets/1.jpeg)](https://tetris-ascii.marcuschiu.com)

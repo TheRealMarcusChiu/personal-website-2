@@ -1,7 +1,7 @@
 +++
 date = '2025-08-11T00:00:00-05:00'
 draft = false
-title = 'Rebuilt Tetris Using Unicode'
+title = "I've Built Tetris Using Unicode"
 +++
 
 # Problem
