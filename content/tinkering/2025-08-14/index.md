@@ -6,7 +6,7 @@ title = "I've Built Tetris Using ASCII"
 
 I've made tetris using <canvas> and also Unicode characters (i.e. 🟧🟪🟥🟦🟨🟩).
 
-So late at night, I've decided to make tetris using ASCII characters.
+So late at night, I've decided to make tetris again using ASCII characters.
 
 [tetris-ascii.marcuschiu.com](https://tetris-ascii.marcuschiu.com)
 
