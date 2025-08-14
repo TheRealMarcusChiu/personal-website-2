@@ -24,7 +24,7 @@ And so I did.
 First, I needed to download the Bible. There are many versions out there, so I'll start with ESV.
 But I can't just download any Bible, I needed one that delimits the book, chapter, and verses.
 
-Finding a good source was surprisingly hard. But I've ended up stumbling on this goldmine:
+Finding a good source was surprisingly hard. But I've ended up stumbling upon this goldmine:
 https://github.com/jadenzaleski/BibleTranslations.
 
 The JSON format looks something like this:
@@ -50,7 +50,7 @@ The JSON format looks something like this:
 
 Looks perfect!
 
-Next, I need to write a program to extract the first occurrence of each word and map it to its location.
+Next, I needed to write a program to extract the first occurrence of each word and map it to its location.
 Something like this:
 
 ```txt
@@ -61,7 +61,7 @@ home Gensis 30:25
 
 I chose Python to implement this.
 
-Once I have the output text file, the next thing is to build a simple website to query this file.
+Once implemented, needed to build a simple website to query this output.
 I've opted to use ChatGPT 5 to help me prettify this website.
 
 ![chatgpt-prompt](assets/2.jpeg)
