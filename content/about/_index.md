@@ -19,6 +19,7 @@ I'm currently a ~~Student studying Bachelor of Science in CS at UTD~~, ~~Compute
 
 My other sites:
 - [confluence.marcuschiu.com](https://confluence.marcuschiu.com) - where I document everything
+- [first-mention.marcuschiu.com](https://first-mention.marcuschiu.com) - The Law of First Mention
 - [tetris.marcuschiu.com](https://tetris.marcuschiu.com) - learning ReactJS
 - [spring-guides.marcuschiu.com](https://spring-guides.marcuschiu.com) - spring guides
 - [d3.marcuschiu.com](https://d3.marcuschiu.com) - data visualization
