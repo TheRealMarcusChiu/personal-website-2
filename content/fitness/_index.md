@@ -6,5 +6,4 @@ title = '💪Fitness'
 
 # 💪 Fitness
 
-When I become fidgety I train my muscles lol — just me, gravity, and consistency. 
-It's my daily reset, a way to stay grounded, focused, and strong in both body and mind.
+When I become fidgety, I train my muscles lol — just me, gravity, and consistency. 

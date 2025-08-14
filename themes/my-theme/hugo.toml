@@ -18,6 +18,11 @@ languageCode = 'en-US'
     weight = 30
 
   [[menus.main]]
+    name = 'Music'
+    pageRef = '/music'
+    weight = 35
+
+  [[menus.main]]
     name = 'Art'
     pageRef = '/art'
     weight = 40
