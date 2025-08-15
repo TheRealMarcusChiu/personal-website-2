@@ -41,13 +41,17 @@ Once installed, open the InfluxDB webpage via the URL given from the command out
 
 Next, we will need to create an `organization`, `bucket` and `API token`.
 
-Create an organization & bucket:
+#### Create an Organization
 
 ![alt](assets/1.jpeg)
 
+#### Create a Bucket
+
 ![alt](assets/2.jpeg)
 
-Create an API token. Once created copy token value for future use:
+#### Create an API token
+
+Once created copy token value for future use:
 
 ![alt](assets/3.jpeg)
 
