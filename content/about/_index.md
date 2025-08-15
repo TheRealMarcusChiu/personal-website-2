@@ -25,4 +25,7 @@ My other sites:
 - [d3.marcuschiu.com](https://d3.marcuschiu.com) - data visualization
 - [crontab.marcuschiu.com](https://crontab.marcuschiu.com) - crontab helper
 - [fisher-information.marcuschiu.com](https://fisher-information.marcuschiu.com) - visualizing fisher information
-- [dimensional.me](https://www.dimensional.me/marcuschiu) - me
+
+Other:
+- [linktree](https://linktr.ee/marcuschiu)
+- [dimensional.me](https://www.dimensional.me/marcuschiu)
