@@ -22,10 +22,10 @@ And so I did.
 # How it was Built
 
 First, I needed to download the Bible. There are many versions out there, so I'll start with ESV.
-But I can't just download any Bible, I needed one that delimits the book, chapter, and verses.
+But I can't just download any ESV, I needed one that delimits the book, chapter, and verses.
 
-Finding a good source was surprisingly hard. But I've ended up stumbling upon this goldmine:
-https://github.com/jadenzaleski/BibleTranslations.
+Finding a good source was harder than expected. But I've ended up stumbling upon this
+[goldmine of JSON files](https://github.com/jadenzaleski/BibleTranslations).
 
 The JSON format looks something like this:
 
@@ -67,3 +67,5 @@ I've opted to use ChatGPT 5 to help me prettify this website.
 ![chatgpt-prompt](assets/2.jpeg)
 
 Did some minor touch-ups and made it public!
+
+Here's the GitHub link: https://github.com/TheRealMarcusChiu/the-law-of-first-mention
