@@ -1,22 +1,22 @@
 +++
 date = '2025-08-16T00:00:00-05:00'
 draft = false
-title = "Alert Me on Disk Full"
+title = "Alert Me on Disk Full  (Telegraf + InfluxDB + Grafana)"
 +++
 
 # Problem
 
 I have about 40 linux containers running, 
-and I want to be notified when any of the containers used up a majority of its disk space. 
+and I want to be notified when any of my containers are close to maxing out its disk space. 
 
 # Solution
 
 I've decided to use the (Telegraf + Influx + Grafana) stack again.
-Previously, I've used it for [monitoring server temperatures](/tinkering/2025-08-13/).
+Previously, I've used it for [alerting me on high temperatures](/tinkering/2025-08-13/).
 
-So here goes configuring 40 plus linux containers...
+So here goes configuring another 40 plus linux containers...
 
-Look how beautiful are my alerts :) of course, I've automated to set up.
+Look how beautiful my alerts are :)
 
 ![alt](assets/1.jpeg)
 
@@ -24,13 +24,13 @@ Look how beautiful are my alerts :) of course, I've automated to set up.
 
 This article assumes you have already set up and are familiar with InfluxDB and Grafana.
 
-Let's consider setting up just one linux container for each of the following steps:
+For each linux container, we would do the following steps:
 
 - [1. InfluxDB](#1-influxdb)
 - [2. Telegraf](#2-telegraf)
 - [3. Grafana](#3-grafana)
 
-You can skip the above manual steps and opt an automated route:
+Or we can do the automated route:
 
 - [Automate for 40 Linux Containers](#automate-for-40-linux-containers)
 
