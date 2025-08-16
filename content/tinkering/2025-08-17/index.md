@@ -4,12 +4,12 @@ draft = false
 title = "Promox Gitea - Change HTTP Port to 80"
 +++
 
-This is guna be a short one.
+This-ah short one.
 
 # Problem
 
 The current [Proxmox Helper Script for gitea LXC](https://community-scripts.github.io/ProxmoxVE/scripts?id=gitea) 
-makes it run only in port 3000. Changing it to port 80 is not so simple... until now.
+runs on port 3000. Changing it to port 80 is not so simple... until now.
 
 # Solution
 
@@ -33,7 +33,7 @@ HTTP_PORT = 80
 ROOT_URL = http://gitea.lan/
 ```
 
-Next, execute the following command (which will allow `/usr/local/bin/gitea` access to use port 80):
+Next, execute the following command (which will allow `/usr/local/bin/gitea` to access port 80):
 
 ```shell
 sudo setcap 'cap_net_bind_service=+ep' /usr/local/bin/gitea
@@ -51,4 +51,4 @@ Then delete the file `/etc/gitea/app.ini` as it will collide with the Gitea Cons
 rm /etc/gitea/app.ini
 ```
 
-Go to the Gitea Console UI and follow the setup process.
+Go to the Gitea Console UI and proceed as normal.
