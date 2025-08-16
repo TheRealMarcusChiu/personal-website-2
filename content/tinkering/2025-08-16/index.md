@@ -7,7 +7,7 @@ title = "Alert Me on Disk Full  (Telegraf + InfluxDB + Grafana)"
 # Problem
 
 I have about 40 linux containers running, 
-and I want to be notified when any of my containers are close to maxing out its disk space. 
+and I want to be notified when any of them are close to maxing out its disk space. 
 
 # Solution
 
