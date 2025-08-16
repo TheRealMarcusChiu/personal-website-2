@@ -59,9 +59,21 @@ homage 1 Samuel 24:8
 home Gensis 30:25
 ```
 
-I chose Python to implement this.
+I chose Python to implement this. Implementing this was quite easy, first we need a key-value map data structure
+i.e. a dictionary in Python to store a word as its key and the first mention location as its value.
 
-Once implemented, needed to build a simple website to query this output.
+```python
+word_first_occurrence = {}  # word -> "BOOK CHAPTER:VERSE"
+```
+
+Next, we will loop through each of the verses from the beginning of the Bible to the end.
+And for each verse, we will tokenize it into individual words.
+Then for each word, check if it exists in the dictionary.
+If the word exists, do nothing. Otherwise, add it to the dictionary as a key with the location as its value.
+
+That's pretty much it.
+
+Next, we need to build a simple website.
 I've opted to use ChatGPT 5 to help me prettify this website.
 
 ![chatgpt-prompt](assets/2.jpeg)
