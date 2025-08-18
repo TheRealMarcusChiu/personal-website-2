@@ -13,14 +13,9 @@ languageCode = 'en-US'
     weight = 20
 
   [[menus.main]]
-    name = 'Math'
-    pageRef = '/math'
-    weight = 30
-
-  [[menus.main]]
     name = 'Music'
     pageRef = '/music'
-    weight = 35
+    weight = 30
 
   [[menus.main]]
     name = 'Art'
