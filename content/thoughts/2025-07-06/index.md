@@ -1,7 +1,7 @@
 +++
 date = '2025-07-06T00:00:00-00:00'
 draft = false
-title = 'Post Heartbreak'
+title = 'A Fading Glimpse'
 summary = 'summary'
 +++
 
