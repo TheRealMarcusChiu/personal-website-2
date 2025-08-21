@@ -1,0 +1,12 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $width := .Get "width" }}
+
+{{ $img := .Page.Resources.GetMatch $src }}
+
+{{ if $width }}
+    {{ $img = $img.Resize (printf "%sx" $width) }}
+{{ end }}
+
+<img src="{{ $img.RelPermalink }}" alt="{{ $alt }}">
+<p></p>
