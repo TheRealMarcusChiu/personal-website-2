@@ -1,6 +1,6 @@
 +++
 date = '2025-08-21T00:00:00-00:00'
-draft = false
+draft = true
 title = 'Thoughts on Bread (extended)'
 summary = 'summary'
 +++
