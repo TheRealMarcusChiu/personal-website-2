@@ -1,6 +1,6 @@
 +++
 date = '2025-06-23T00:00:00-05:00'
-draft = false
+draft = true
 title = 'Dimensional Me'
 summary = 'summary'
 +++
