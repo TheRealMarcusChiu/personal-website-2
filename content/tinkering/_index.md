@@ -5,4 +5,4 @@ title = '🛠Tinkering'
 +++
 # 🛠 Tinkering
 
-This is where I dive into the world of tech projects — from homelab setups and software builds to curious coding adventures.
+This is where I dive into the world of tech projects — from homelab setups to curious coding adventures.
