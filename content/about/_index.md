@@ -18,6 +18,7 @@ I'm currently a ~~Student studying Bachelor of Science in CS at UTD~~, ~~Compute
 &nbsp;
 
 My other sites:
+- [visualizing-neural-networks.marcuschiu.com](https://visualizing-neural-networks.marcuschiu.com) - ditto
 - [confluence.marcuschiu.com](https://confluence.marcuschiu.com) - where I document everything
 - [shazam.marcuschiu.com](https://shazam.marcuschiu.com) - local shazam
 - [first-mention.marcuschiu.com](https://first-mention.marcuschiu.com) - The Law of First Mention
