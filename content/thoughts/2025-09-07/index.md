@@ -1,0 +1,11 @@
++++
+date = '2025-09-07T00:00:00-00:00'
+draft = true
+title = '4yo Wisdom'
+summary = 'summary'
++++
+
+- Dad: I love you, sweetheart.
+- 4yo Daughter: I love you too, Daddy.
+- Dad: I hope you don’t get tired of me saying that all the time.
+- 4yo Daughter: I'm never too tired of love.
