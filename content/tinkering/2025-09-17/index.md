@@ -11,7 +11,10 @@ for which direct sampling is difficult.
 # Introduction
 
 This article assumes the reader understands the following:
-- Markov Chains & the ergodic property
+- Markov Chains & its properties:
+  - ergodic property
+  - stationary distribution
+  - detailed balanced
 - Monte Carlo Methods
 
 ## Problem:
