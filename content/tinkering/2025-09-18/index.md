@@ -6,7 +6,7 @@ title = "I've 3D Scanned my Room (3D Gaussian Splatting)"
 
 # Problem
 
-A couple weeks ago - I've watched this [YouTube video](https://www.youtube.com/watch?v=gXug7Kb3p4I).
+Sometime ago - I've watched this [YouTube video](https://www.youtube.com/watch?v=gXug7Kb3p4I).
 
 Now I want a 3D model of my room :o
 
