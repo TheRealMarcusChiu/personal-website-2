@@ -1,5 +1,5 @@
 +++
-date = '2025-09-14T00:00:00-05:00'
+date = '2025-09-18T00:00:00-05:00'
 draft = true
 title = "I've 3D Scanned my Room (3D Gaussian Splatting)"
 +++
