@@ -9,12 +9,12 @@ title = "I've 3D Scanned my Room (3D Gaussian Splatting)"
 Sometime ago - I've watched a [video](https://www.youtube.com/watch?v=gXug7Kb3p4I) on Hidden 3D Inside Google Maps,
 where it displayed the interior of restaurants in 3D
 
-Quite naturally, my curious self wanted a dab at it.
+Quite naturally, my curious self wanted to take a look into and create one myself.
 
 # Solution
 
 After a couple of days of head scratching, 
-I've created a 3D model of my room: [my-room.marcuschiu.com](https://my-room.marcuschiu.com)
+I've finally did it and created a 3D model of my room: [my-room.marcuschiu.com](https://my-room.marcuschiu.com)
 
 [![My 3DGS Room](assets/my-room.png)](https://my-room.marcuschiu.com)
 
