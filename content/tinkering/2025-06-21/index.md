@@ -92,13 +92,16 @@ Create a service file /etc/systemd/system/wol.service with the following
 ```ini
 [Unit]
 Description=Enable Wake On Lan
+# Run after everything else
+After=multi-user.target network-online.target default.target
+Wants=network-online.target
  
 [Service]
 Type=oneshot
 ExecStart = /usr/sbin/ethtool --change enp12s0 wol g
  
 [Install]
-WantedBy=basic.target
+WantedBy=default.target
 ```
 
 Execute the following
