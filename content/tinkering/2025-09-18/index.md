@@ -1,18 +1,20 @@
 +++
-date = '2025-12-18T00:00:00-05:00'
+date = '2025-09-18T00:00:00-05:00'
 draft = false
 title = "I've 3D Scanned my Room (3D Gaussian Splatting)"
 +++
 
 # Problem
 
-Sometime ago - I've watched this [YouTube video](https://www.youtube.com/watch?v=gXug7Kb3p4I).
+Sometime ago - I've watched a [video](https://www.youtube.com/watch?v=gXug7Kb3p4I) on `Hidden 3D Inside Google Maps`..
 
 Now I want a 3D model of my room :o
 
 # Solution
 
 And so I did - [my-room.marcuschiu.com](https://my-room.marcuschiu.com)
+
+[![My 3DGS Room](assets/my-room.png)](https://my-room.marcuschiu.com)
 
 # How it's Done
 
@@ -50,15 +52,14 @@ colmap feature_extractor --database_path colmap_output/database.db --image_path 
 colmap exhaustive_matcher --database_path colmap_output/database.db
 mkdir -p colmap_output/sparse
 colmap mapper --database_path colmap_output/database.db --image_path ./images --output_path colmap_output/sparse
+mkdir -p colmap_output/dense
 colmap image_undistorter \
   --image_path ./images \
   --input_path colmap_output/sparse/0 \
   --output_path colmap_output/dense \
   --output_type COLMAP
-colmap mapper \
-  --database_path ./colmap_output/dense/database.db \
-  --image_path ./colmap_output/dense/images \
-  --output_path ./colmap_output/dense/sparse
+mkdir -p colmap_output/dense/sparse/0"
+mv colmap_output/dense/sparse/*.bin colmap_output/dense/sparse/0
 ```
 
 The data in `./colmap_output/dense` will be used in the next tool.
