@@ -6,19 +6,18 @@ title = "I've 3D Scanned my Room (3D Gaussian Splatting)"
 
 # Problem
 
-Sometime ago - I've watched a [video](https://www.youtube.com/watch?v=gXug7Kb3p4I) on `Hidden 3D Inside Google Maps`..
+Sometime ago - I've watched a [video](https://www.youtube.com/watch?v=gXug7Kb3p4I) on Hidden 3D Inside Google Maps,
+where it displayed the interior of restaurants in 3D
 
-Now I want a 3D model of my room :o
+Quite naturally, my curious self wanted a dab at it.
 
 # Solution
 
-And so I did - [my-room.marcuschiu.com](https://my-room.marcuschiu.com)
+And so I did. I've created a 3D model of my room: [my-room.marcuschiu.com](https://my-room.marcuschiu.com)
 
 [![My 3DGS Room](assets/my-room.png)](https://my-room.marcuschiu.com)
 
 # How it's Done
-
-code base: https://github.com/TheRealMarcusChiu/3dgs-playcanvas-examples/tree/master
 
 This article shows how to convert a bundle of 2D images into a 3D SOG file.
 
@@ -44,7 +43,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 conda install -y -c conda-forge colmap
 ```
 
-Use `colmap` to extract features from `./images`:
+Use `colmap` to extract features from `./images`, then create sparse 3D maps, followed by dense 3D maps:
 
 ```shell
 mkdir colmap_output
@@ -58,7 +57,7 @@ colmap image_undistorter \
   --input_path colmap_output/sparse/0 \
   --output_path colmap_output/dense \
   --output_type COLMAP
-mkdir -p colmap_output/dense/sparse/0"
+mkdir -p colmap_output/dense/sparse/0
 mv colmap_output/dense/sparse/*.bin colmap_output/dense/sparse/0
 ```
 
