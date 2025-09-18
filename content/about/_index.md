@@ -17,6 +17,7 @@ Backup of everything I've learned since 2018:
 
 Other websites:
 
+- [my-room.marcuschiu.com](https://my-room.marcuschiu.com) - My Room in 3D
 - [visualizing-neural-networks.marcuschiu.com](https://visualizing-neural-networks.marcuschiu.com) - ditto
 - [shazam.marcuschiu.com](https://shazam.marcuschiu.com) - Shazam within a browser?
 - [first-mention.marcuschiu.com](https://first-mention.marcuschiu.com) - The Law of First Mention
