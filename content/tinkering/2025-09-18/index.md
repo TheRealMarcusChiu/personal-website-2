@@ -1,5 +1,5 @@
 +++
-date = '2025-09-18T00:00:00-05:00'
+date = '2025-09-17T00:00:00-06:00'
 draft = false
 title = "I've 3D Scanned my Room (3D Gaussian Splatting)"
 +++
@@ -13,13 +13,19 @@ Quite naturally, my curious self wanted a dab at it.
 
 # Solution
 
-And so I did. I've created a 3D model of my room: [my-room.marcuschiu.com](https://my-room.marcuschiu.com)
+After a couple of days of head scratching, 
+I've created a 3D model of my room: [my-room.marcuschiu.com](https://my-room.marcuschiu.com)
 
 [![My 3DGS Room](assets/my-room.png)](https://my-room.marcuschiu.com)
 
 # How it's Done
 
 This article shows how to convert a bundle of 2D images into a 3D SOG file.
+
+Since this technology is relative new and is booming with new research most of the tools are in fluctuations.
+I've been using command line tools not so much of IDE specifically built for 3DGS. I assume using an IDE would be
+much user-friendly. Anyways, I've stuck with command line and the rest of this article shows the pipeline 
+I've ended up using.
 
 # 0. Prerequisites
 
