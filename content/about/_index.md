@@ -29,7 +29,7 @@ Other websites:
 
 &nbsp;
 
-{{< figure src="assets/me/me.jpeg" title="me and pixel man (acrylic)" >}}
+{{< figure src="assets/me/me-01.jpg" title="" >}}
 
 &nbsp;
 
