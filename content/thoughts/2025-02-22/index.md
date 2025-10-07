@@ -1,6 +1,6 @@
 +++
 date = '2025-02-22T17:36:22-05:00'
-draft = false
+draft = true
 title = 'Wedding Banquet'
 summary = 'summary'
 +++

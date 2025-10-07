@@ -1,7 +1,7 @@
 +++
 date = '2025-07-30T00:00:00-00:00'
 draft = false
-title = 'Christian Ramblings #1'
+title = 'Christian Ramblings #2'
 summary = 'summary'
 +++
 
