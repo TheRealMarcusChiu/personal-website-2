@@ -29,7 +29,7 @@ Other websites:
 
 &nbsp;
 
-My behavioral profile:
+My behavior profile:
 
 {{< figure src="assets/behavioral-profile.png" title="" >}}
 
