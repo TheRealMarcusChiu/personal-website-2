@@ -29,9 +29,16 @@ Other websites:
 
 &nbsp;
 
-{{< figure src="assets/me/me-01.jpg" title="" >}}
+My behavioral profile:
+
+{{< figure src="assets/behavioral-profile.png" title="" >}}
 
 &nbsp;
+
+[//]: # ({{< figure src="assets/me/me-01.jpg" title="" >}})
+
+[//]: # ()
+[//]: # (&nbsp;)
 
 Other:
 - [linktree](https://linktr.ee/marcuschiu)
