@@ -13,6 +13,8 @@ I'm currently a ~~Student studying Bachelor of Science in CS at UTD~~, ~~Compute
 
 &nbsp;
 
+# Websites
+
 Backup of everything I've learned since 2018:
 
 - [confluence.marcuschiu.com](https://confluence.marcuschiu.com)
@@ -29,19 +31,21 @@ Other websites:
 - [crontab.marcuschiu.com](https://crontab.marcuschiu.com) - crontab helper
 - [fisher-information.marcuschiu.com](https://fisher-information.marcuschiu.com) - visualizing fisher information
 
+
 &nbsp;
 
-My behavior profile:
+# Behavior Profile
 
 {{< figure src="assets/behavioral-profile.png" title="" >}}
-
-&nbsp;
 
 [//]: # ({{< figure src="assets/me/me-01.jpg" title="" >}})
 
 [//]: # ()
 [//]: # (&nbsp;)
 
-Other:
+&nbsp;
+
+# Other
+
 - [linktree](https://linktr.ee/marcuschiu)
 - [dimensional.me](https://www.dimensional.me/marcuschiu)
