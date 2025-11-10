@@ -13,6 +13,10 @@ I'm currently a ~~Student studying Bachelor of Science in CS at UTD~~, ~~Compute
 
 &nbsp;
 
+{{< figure src="assets/me/me-01.jpg" title="" >}}
+
+&nbsp;
+
 # Websites
 
 Backup of everything I've learned since 2018:
@@ -37,11 +41,6 @@ Other websites:
 # Behavior Profile
 
 {{< figure src="assets/behavioral-profile.png" title="" >}}
-
-[//]: # ({{< figure src="assets/me/me-01.jpg" title="" >}})
-
-[//]: # ()
-[//]: # (&nbsp;)
 
 &nbsp;
 
