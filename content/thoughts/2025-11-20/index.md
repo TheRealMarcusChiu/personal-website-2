@@ -1,9 +1,21 @@
 +++
 date = '2025-11-20T00:00:00-00:00'
-draft = false
+draft = true
 title = 'Ramblings #1'
 summary = 'summary'
 +++
+
+# Poeima
+
+It's been a year since i've stumbled upon C.S. Lewis' "Thoughts on Praise" where I've learned that "praise is the overflow of what we enjoy". When we enjoy something - we tell others about it and invite them to join us in praising it. This is what we do when we share the good news of a newly discovered restaurant; this is what we do when we send out invitations to a wedding banquet. It all begins with a word, and at times - it becomes a song. A song to be sung and a song to be heard; through the words of our mouths and through the meditations of our hearts. A song quite literally is an **expression of our inner self** our **inner health made audible**. A love song is an outward expression of the lover, a poem is an outward expression of the poet, an artwork is an outward expression of the artist. Pleasing to the listener, to the eye, and to the soul.
+
+i was meditating on this awhile back and stumbled upon something learned years ago. It has to do with the Greek word poiema. Often translated to "workmanship" it's where we got our word "poem". This word poiema only appeared twice in the Bible. 
+
+Once in Ephesians 2:10, "For we are God’s workmanship, created in Christ Jesus to do good works, which God prepared in advance as our way of life". We are God's poiema - an expression of His inner being. Like a song we are to sing and be heard. So that one day, the words of our mouths and the meditations of our hearts be pleasing in Your sight, our LORD, our Rock and Redeemer. Amen.
+
+And the last time in Romans 1:20, "For since the creation of the world God’s invisible qualities, His eternal power and divine nature, have been clearly seen, being understood from His workmanship, so that men are without excuse." The best way to know God is through His workmanship. His poiema.
+
+A poem is a song whose beauty and value is made clearer as the years go by.
 
 # Love by Willful Sacrifice
 

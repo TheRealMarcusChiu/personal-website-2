@@ -5,7 +5,8 @@ title = '👋Home'
 +++
 # 👋 Hi there
 
-Welcome to my corner of the internet! And as always, thanks for stopping by :)
+Welcome to my corner of the internet!
+What you see here has been curated from [confluence.marcuschiu.com](https://confluence.marcuschiu.com).
+And as always, thanks for stopping by :)
 
 — *Your Friendly Internet Neighbor*
-
