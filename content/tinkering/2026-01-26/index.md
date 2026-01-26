@@ -77,3 +77,7 @@ The Barnes-Hut algorithm trades a little accuracy for a huge gain in speed. By a
 - **Larger θ:** faster but less accurate.
 
 For most simulations, `θ = 0.5` gives excellent results.
+
+# Resources
+
+- https://arborjs.org/docs/barnes-hut
