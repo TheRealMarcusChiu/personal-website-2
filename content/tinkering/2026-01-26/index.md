@@ -51,10 +51,7 @@ To find the net force on a body:
 1. Start at the root.  
 2. For each node:
    - If it’s a leaf node (a single body that’s not the target), compute the force directly.  
-   - If it’s an internal node, calculate the ratio:
-     ```
-     s / d
-     ```
+   - If it’s an internal node, calculate the ratio: `s / d`
      - `s` = width of the node’s region  
      - `d` = distance from the body to the node’s center of mass  
    - If `s / d < θ` (a threshold, often 0.5), treat the node as a single body and compute the force.  
