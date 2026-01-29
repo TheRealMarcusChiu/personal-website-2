@@ -1,9 +1,13 @@
 +++
-date = '2025-11-20T00:00:00-00:00'
-draft = true
+date = '2026-11-20T00:00:00-00:00'
+draft = false
 title = 'Ramblings #1'
 summary = 'summary'
 +++
+
+# Temptation
+
+temptation is taking a good thing and acquiring it the wrong way.
 
 # The Identity Problem
 
@@ -13,6 +17,9 @@ Why do a lot of people struggle with identity.
 
 This question once answered will also answer the question, "What should I do with my life?"
 
+Even when you've have figured out what you want to do in life - it is still unsettling if you have noone whom to share with.
+This is exemplified when you out grow your friend group or your interests diverge from a group. For example one becomes espcially interested in business/entreprenerial mindset but share nothing with a group whom have no interest in it. Same goes with pursuing an music career, a photography career, etc people move from Geogria to Los Angelos not just for opportunity but to surround themselves with like minded people.
+
 # GENERAL RELATIONSHIPS (i.e. parent-child, siblings, friendships, romantic, etc)
 
 In the beginning, God said, “Let us make man in our own image”. This is a unique verse in the first chapter of Genesis, in that everything else He has made, from the sun moon and stars there is no mention of us nor our when God spoke. It is only when God created us humanity that His plurality was brought out. But what does this mean? I am not entirely sure but a good start is to look into who God is and how we refer to Him.
@@ -20,6 +27,10 @@ In the beginning, God said, “Let us make man in our own image”. This is a un
 We refer to Him as the Trinity. This word is used all the time at church like "praise" and "holiness" and at times we don't even know what it means. Three-in-one okay but it's been reduced to a purely intellectual acknowledgement. I didn't come to have a sliver of understanding until I've learned that the Greek word for Trinity is "perichoresis". It's a two part word where "peri" means around like a circle and it's a circle because there's no hierarchy. And "choresis" means to go or to dance, this is where we got our word choreography. And together "perichoresis" means to go around - dancing around in a circle. I picture the Trinity like 3 children in a playground, holding hands, dancing in a circle, smiling and laughing. Able to enjoy each other's presence and be enjoyed, able to delight in each other's presence and be delighted. Able to love and be loved, and able to know and be known. And then one day, God said, "Let us make man in our own image". It's like He's saying, "Let us make man be able to experience what We are able to give each other." So we too are able to enjoy each others presence and be enjoyed, we too are able to delight in each others presence and be delighted, we too are able to see each other and be seen, hear each other and be heard, love each other and be loved in return, and know each other and be known.
 
 For each of us is a PERSON created by God - you, me, all of us created by God, fearfully and wonderfully made. Created not just in form but also with function. To live in right relationship with God and with each other. This is what it means to be righteous - to live in right relationship with God and with other people. This is the core summary of the sermon on the mount, perhaps the entire Bible, and the significance of our lives.
+
+A relationship, is the act of giving and receiving. When done right, it can reveal certain truths about God's character. I love to pair the verse being made in His likeness to when the pharisees asked Jesus should we pay tax to Cesar? Jesus took a coin with cesuras face on it and asked to whose inscription is this made? They answered Casears. And Jesus continued by saying, "Render to Ceasars what is Caesars, and render to God what is Gods." Do you know what He just said right here? Because your bare the image of God in His likeness - give yourself to Him. Everyone everywhere should give themselves to God, and oncludes Ceasar. And little did they know that he will end up giving his life to them.
+
+You are of more value than a coin than why do you chase after it so much. Let us use money to love people, instead of using people for the love of money.
 
 Meditating about the Trinity - I found myself grateful for not just the people i have around my life, I found myself grateful for not just the people that they have in their own lives, but I found myself grateful for the ability that we have to even form such bonds.
 
