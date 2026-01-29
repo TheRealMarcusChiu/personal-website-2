@@ -24,7 +24,7 @@ Center of mass y = (y1*m1 + y2*m2) / Total mass
 
 # Organizing Space with a Quad-Tree
 
-The algorithm uses a [**quad-tree**](https://en.wikipedia.org/wiki/Quadtree), a tree structure where each node has up to 4 children, representing quadrants of 2D space:
+The algorithm uses a [quad-tree](https://en.wikipedia.org/wiki/Quadtree), a tree structure where each node has up to 4 children, representing quadrants of 2D space:
 
 - The root node covers the entire space.
 - Each child node represents one quadrant of its parent.
@@ -38,9 +38,9 @@ This lets you quickly find which groups of bodies are far enough to approximate 
 
 To insert a new body into the tree:
 
-1. **Empty node:** Place the body here.  
-2. **Internal node:** Update its center of mass and total mass, then insert recursively into the correct quadrant.  
-3. **External node with a body:** Subdivide the region into four quadrants, and insert both the existing and new bodies recursively.
+1. empty node - place the body here
+2. internal node - update its center of mass and total mass, then insert recursively into the correct quadrant
+3. external node with a body - subdivide the region into four quadrants, and insert both the existing and new bodies recursively
 
 Repeat until all bodies are in the tree.  
 
@@ -48,14 +48,16 @@ Repeat until all bodies are in the tree.
 
 To find the net force on a body:
 
-1. Start at the root.  
+```text
+1. Start at the root
 2. For each node:
-   - If it’s a leaf node (a single body that’s not the target), compute the force directly.  
-   - If it’s an internal node, calculate the ratio: `s / d`
-     - `s` = width of the node’s region  
-     - `d` = distance from the body to the node’s center of mass  
-   - If `s / d < θ` (a threshold, often 0.5), treat the node as a single body and compute the force.  
-   - Otherwise, recurse into the children of the node.
+   - If it’s a leaf node (a single body that’s not the target), compute the force directly
+   - If it’s an internal node, calculate the ratio: `s/d`
+     - `s` = width of the node’s region
+     - `d` = distance from the body to the node’s center of mass
+   - If `s / d < θ` (a threshold, often 0.5), treat the node as a single body and compute the force
+   - Otherwise, recurse into the children of the node
+```
 
 By grouping distant bodies, the algorithm avoids many pairwise calculations, making it much faster than brute force.
 
@@ -71,12 +73,12 @@ This way, each body only calculates forces from important neighbors and distant 
 
 # Why It Works
 
-The Barnes-Hut algorithm trades a little accuracy for a huge gain in speed. By adjusting the threshold `θ`, you can balance:
+The Barnes-Hut algorithm trades a little accuracy for a huge gain in speed. By adjusting the threshold θ, you can balance:
 
-- **Smaller θ:** more accurate but slower (closer to brute force).  
-- **Larger θ:** faster but less accurate.
+- Smaller θ - more accurate but slower (closer to brute force)
+- Larger θ - faster but less accurate
 
-For most simulations, `θ = 0.5` gives excellent results.
+For most simulations, θ=0.5 gives excellent results.
 
 # Resources
 

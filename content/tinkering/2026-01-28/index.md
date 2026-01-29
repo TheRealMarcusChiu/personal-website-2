@@ -15,23 +15,23 @@ This guide summarizes an n8n workflow that powers a Discord AI chatbot. The bot 
 1. On New Discord Message Event
 2. Discord Bot Event Listener (Python) - captures messages and sends them to the n8n webhook
 3. n8n Workflow
-  - Webhook (to receive events from #2)
-  - AI Agent Node
-  - Discord Send Message Response
+    - Webhook (to receive events from #2)
+    - AI Agent Node
+    - Discord Send Message Response
 4. Discord Receives Message Response
 
 # Prerequisites
 
 * Install n8n - https://docs.n8n.io/hosting/
 
-# 1) Create a Discord Bot
+# 1. Create a Discord Bot
 
 * Create an application in the [Discord Developer Portal](https://discord.com/developers/applications).
 * Reset and save the **Bot Token**.
 * Enable privileged intents (Presence, Server Members, Message Content).
 * Invite the bot to your server with required permissions.
 
-# 2) Deploy the Discord Bot Event Listener (Python)
+# 2. Deploy the Discord Bot Event Listener (Python)
 
 Clone [https://github.com/TheRealMarcusChiu/discord-ai-chatbot](https://github.com/TheRealMarcusChiu/discord-ai-chatbot)
 
@@ -60,7 +60,7 @@ Run the `Discord Bot Event Listener`:
 python main.py
 ```
 
-# 3) Run Discord Bot Event Listener 24/7
+# 3. Run Discord Bot Event Listener 24/7
 
 Exit out of `python main.py`.
 
@@ -85,7 +85,7 @@ sudo systemctl status discord-bot.service
 sudo journalctl -u discord-bot.service -f
 ```
 
-# n8n Workflow
+# 3. n8n Workflow
 
 [![discord-ai-chatbot-workflow](assets/discord-ai-chatbot-workflow.png)](assets/discord-ai-chatbot-workflow.png)
 
@@ -100,7 +100,7 @@ You may import this [JSON file](assets/discord-ai-chatbot.json) into your n8n se
 
 Once, configured `SAVE` and `PUBLISH` the workflow!
 
-# Testing
+# 4. Testing
 
 1. Start the Discord bot.
 2. Activate the n8n workflow.
