@@ -1,0 +1,13 @@
+[Unit]
+Description=Hugo Development Server
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/projects/personal-website-2
+ExecStart=/usr/local/bin/hugo serve --buildFuture e --bind 192.168.111.152 --baseURL http://192.168.111.152:1313
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
