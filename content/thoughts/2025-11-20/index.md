@@ -1,9 +1,28 @@
 +++
-date = '2026-11-20T00:00:00-00:00'
+date = '2037-11-20T00:00:00-00:00'
 draft = false
 title = 'Ramblings #1'
 summary = 'summary'
 +++
+
+
+orthodoxy and orthopraxy are both applies to external behaviora. with right dox leads to right practice. But there should be something more internal
+
+# Love
+
+- It's easier for me to love a woman than it is to genuinely believe that I am worthy for her love
+
+https://www.youtube.com/watch?v=Q6C5IovEqpI
+
+- the radical message is that we are transformed not just by loving others but by being loved and accepting that we are worthy of love
+- The quest for love (whether it's god's love or whether it's the love of a spouse) it's about finding somebody not only that you love but that you can be transformed by their love
+
+Like I believe that you were transformed by God's love; more so than by loving God. By getting from God the love that you didn't get from people whom you love. And you couldn't get it from them. And again because they are human, and flawed. Not because they're evil 
+
+The challenge is that we have to hold ourselves to a higher standard in our selection of taking love seriously, marriage seriously, taking the search for committed love seriously.
+
+We are not transformed by loving somebody but by being loved
+
 
 # Temptation
 
@@ -19,6 +38,10 @@ This question once answered will also answer the question, "What should I do wit
 
 Even when you've have figured out what you want to do in life - it is still unsettling if you have noone whom to share with.
 This is exemplified when you out grow your friend group or your interests diverge from a group. For example one becomes espcially interested in business/entreprenerial mindset but share nothing with a group whom have no interest in it. Same goes with pursuing an music career, a photography career, etc people move from Geogria to Los Angelos not just for opportunity but to surround themselves with like minded people.
+
+We often find our identity in a number whether it's a salary or the number of followers. We put a label on us like a name. So we end up using people for the love of money instead of using money and loving people. 
+
+Identity breeds behavior
 
 # GENERAL RELATIONSHIPS (i.e. parent-child, siblings, friendships, romantic, etc)
 

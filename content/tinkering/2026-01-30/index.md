@@ -8,7 +8,7 @@ If you’ve experimented with [Fedora Asahi Linux on Apple Silicon](https://asah
 
 ⚠️ WARNING: These steps permanently delete Linux data
 
-# Step 1: Boot into macOS (Set as Default OS)
+# 1. Boot into macOS (Set as Default OS)
 
 If your Mac still defaults to Fedora Asahi Linux:
 
@@ -17,7 +17,7 @@ If your Mac still defaults to Fedora Asahi Linux:
 3. Select macOS
 4. Click Always Use
 
-# Step 2: Inspect APFS Containers
+# 2. Inspect APFS Containers
 
 List all APFS containers:
 
@@ -59,7 +59,7 @@ APFS Containers (3 found)
 
 Take note of the APFS Container disk ID used by Fedora (e.g. `disk2` in the example above)
 
-# Step 3: Unmount the Fedora APFS Container
+# 3. Delete the Fedora APFS Container
 
 Unmount the entire container:
 
@@ -73,15 +73,13 @@ If it refuses:
 sudo diskutil unmountDisk force disk2
 ```
 
-# Step 4: Delete the Fedora APFS Container
-
 Once unmounted, delete the container:
 
 ```bash
 sudo diskutil apfs deleteContainer disk2
 ```
 
-# Step 5: Verify Free Space
+# 4. Reclaim the Space for macOS
 
 Re-run:
 
@@ -90,16 +88,13 @@ diskutil list
 ```
 
 You should now see Free Space where Fedora lived.
-
-# Step 6: Reclaim the Space for macOS
-
 If the free space is adjacent to the macOS container:
 
 ```bash
 sudo diskutil apfs resizeContainer disk1 0
 ```
 
-`0` means "use all available space"
+- `0` means "use all available space"
 
 
 # Conclusion
