@@ -8,6 +8,82 @@ summary = 'summary'
 
 orthodoxy and orthopraxy are both applies to external behaviora. with right dox leads to right practice. But there should be something more internal
 
+# Belief
+
+I believe because I don't believe in myself
+
+# Treasure
+
+How can you believe if you accept glory from one another, yet do not seek the glory that comes from the only God? ~ John 5:44
+
+The Bible contains many examples of people learning (perhaps the hard way) that their own strength has a ceiling, and they end up crying out for God. This what it means to depend on God. It isn't a sign of weakness but sign of alignment with a higher power.
+
+Truth without affection can turn a person dry and proud
+Affection without truth can cause a person to drift and be deceived
+
+Doctrine:
+- is another word for teaching
+- it is right thinking (thinking exists for feeling)
+- is a way of communicating truth
+
+Truth = Reality
+
+Open my eyes, that I may see Wondrous things from Your word ~ Psalms 119:18
+
+Satisfy us each morning with your unfailing love, so we may sing for joy to the end of our lives ~ Psalms 90:14
+
+If God is your treasure, He will be your pleasure
+Even our sins bear witness to his worth
+
+
+Though the fig tree may not blossom,
+Nor fruit be on the vines;
+Though the labor of the olive may fail,
+And the fields yield no food;
+Though the flock may be cut off from the fold,
+And there be no herd in the stalls—
+18Yet I will rejoice in the Lord,
+I will joy in the God of my salvation.
+~ Habakkuk 3:17-18
+
+
+God is to be treasured; more than His gifts.
+
+# SCJ 
+
+- where in revelation does it say that fulfillment would occur in Korea?
+- are there independent historical sources confirming that Revelation 13 matches the specific Korean pastors you identify?
+- Hebrews says God has spoken finally through the Son. How does requiring a promised pastor fit with that?
+- how do you determine when a symbol applies universally versus specifically to one Korean event?
+- For 2000 years, millions of Christians read Revelation. Were they all incapable of understanding it until now?
+
+High-control theological systems survive on three psychological levers:
+- intellectual stimulation:
+  - it feels like solving a puzzle:
+    - starts with symbolic decoding
+    - you start to see patterns everywhere (brain loves pattern recognition, when symbols start clicking, dopamine fires)
+      - it feels like I'm finally understanding Scripture deeply
+  - They create epistemic superiority
+    - once you learn the system:
+      - other christians seem "surface level"
+      - you feel like you understand hidden meaning
+      - you feel chosen
+    - it's not ego, but perceived access to deeper truth
+    - intelligent people are drawn to systems that feel internally consistent and comprehensive
+  - gradual commitment:
+    - start with: parables -> symbol cross-references -> structured lessons, weekly commitment -> tests
+    - by the time exclusivity is introduced, you've invested months
+    - cognitive dissonance kicks in: "if this were wrong, I would have noticed"
+  - certainty in an ambiguous book:
+    - mainstream christianity often says: we don't know the details or there are multiple views
+    - Shincheonji says: here is exactly what happened, when, and who?
+    - certainty is emotionally stabilizing
+  - identity reformation:
+    - overtime, belief system become identity-anchored.
+    - and when belief becomes identity, it's very hard to detach
+- exclusive insight - remove that and the emotional charge weakens
+- existential urgency
+
 # Love
 
 - It's easier for me to love a woman than it is to genuinely believe that I am worthy for her love
@@ -43,13 +119,23 @@ We often find our identity in a number whether it's a salary or the number of fo
 
 Identity breeds behavior
 
+# GENERAL RELATIONSHIPS
+
+GENERAL RELATIONSHIPS (i.e. parent-child, siblings, friendships, romantic, etc)
+
+Then God said, "Let Us make man in Our image, after Our likeness" ~ Genesis 1:26
+
+It is only when God created humanity that His plurality was brought out. NO where else in that chapter. But what does this mean? I am not entirely sure but a good place to start is to look into who God is and how we refer to Him. We refer to Him as the Trinity. A word that I heard so often that I don't even know what it means. Three-in-one okay but I've reduced it to be a purely intellectual acknowledgement. I didn't come to have a sliver of understanding until I’ve learned that the Greek word for Trinity is "perichoresis". It's a two part word where "peri" means around like a circle and it's a circle because there’s no hierarchy. And "choresis" means to go or to dance, this is where we got our word choreography. And together "perichoresis" means to go around - dancing around in a circle. I picture the Trinity like 3 children in a playground, holding hands, dancing in a circle, smiling and laughing. Able to enjoy each other’s presence and be enjoyed, able to delight in each other's presence and be delighted. Able to love and be loved, and able to know and be known. And then one day, God said, "Let us make man in our own image". It’s like He's saying, "Let us make man be able to experience what We are able to give each other." So we too are able to enjoy each others presence and be enjoyed, we too are able to delight in each others presence and be delighted, we too are able to see each other and be seen, hear each other and be heard, love each other and be loved in return, and know each other and be known.
+
 # GENERAL RELATIONSHIPS (i.e. parent-child, siblings, friendships, romantic, etc)
 
 In the beginning, God said, “Let us make man in our own image”. This is a unique verse in the first chapter of Genesis, in that everything else He has made, from the sun moon and stars there is no mention of us nor our when God spoke. It is only when God created us humanity that His plurality was brought out. But what does this mean? I am not entirely sure but a good start is to look into who God is and how we refer to Him.
 
 We refer to Him as the Trinity. This word is used all the time at church like "praise" and "holiness" and at times we don't even know what it means. Three-in-one okay but it's been reduced to a purely intellectual acknowledgement. I didn't come to have a sliver of understanding until I've learned that the Greek word for Trinity is "perichoresis". It's a two part word where "peri" means around like a circle and it's a circle because there's no hierarchy. And "choresis" means to go or to dance, this is where we got our word choreography. And together "perichoresis" means to go around - dancing around in a circle. I picture the Trinity like 3 children in a playground, holding hands, dancing in a circle, smiling and laughing. Able to enjoy each other's presence and be enjoyed, able to delight in each other's presence and be delighted. Able to love and be loved, and able to know and be known. And then one day, God said, "Let us make man in our own image". It's like He's saying, "Let us make man be able to experience what We are able to give each other." So we too are able to enjoy each others presence and be enjoyed, we too are able to delight in each others presence and be delighted, we too are able to see each other and be seen, hear each other and be heard, love each other and be loved in return, and know each other and be known.
 
-For each of us is a PERSON created by God - you, me, all of us created by God, fearfully and wonderfully made. Created not just in form but also with function. To live in right relationship with God and with each other. This is what it means to be righteous - to live in right relationship with God and with other people. This is the core summary of the sermon on the mount, perhaps the entire Bible, and the significance of our lives.
+For each of us is a PERSON created by God - you, me, all of us created by God, fearfully and wonderfully made. 
+Each of our lives are as intricate and complex as each other, and church is a community of believers who have spent their week in communion with God and on Sunday we come together and share in that communion with each other and with God.
+Created not just in form but also with function. To live in right relationship with God and with each other. This is what it means to be righteous - to live in right relationship with God and with other people. This is the core summary of the sermon on the mount, perhaps the entire Bible, and the significance of our lives.
 
 A relationship, is the act of giving and receiving. When done right, it can reveal certain truths about God's character. I love to pair the verse being made in His likeness to when the pharisees asked Jesus should we pay tax to Cesar? Jesus took a coin with cesuras face on it and asked to whose inscription is this made? They answered Casears. And Jesus continued by saying, "Render to Ceasars what is Caesars, and render to God what is Gods." Do you know what He just said right here? Because your bare the image of God in His likeness - give yourself to Him. Everyone everywhere should give themselves to God, and oncludes Ceasar. And little did they know that he will end up giving his life to them.
 
