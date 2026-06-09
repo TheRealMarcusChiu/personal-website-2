@@ -48,3 +48,9 @@ Other websites:
 
 - [linktree](https://linktr.ee/marcuschiu)
 - [dimensional.me](https://www.dimensional.me/marcuschiu)
+
+&nbsp;
+
+{{< figure src="assets/me/me-02.jpg" title="" >}}
+
+&nbsp;
